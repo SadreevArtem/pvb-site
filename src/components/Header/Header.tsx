@@ -19,26 +19,30 @@ export default function Header ()  {
     document.body.style.removeProperty("overflow");
   };
     return (
-      <header
-        className={` md:p-4 p-3 header-scroll fixed top-0 z-10 bg-primary w-full`}
-      >
-        <div className={"container flex items-center justify-between min-h-6"}>
+      <header className="lg:px-24 px-3 header-scroll fixed top-0 z-10 bg-cover w-full border-b-1 border-[#c7c9c8] lg:h-[100px]">
+        <div
+          className={
+            "container flex items-center justify-between min-h-6 w-full"
+          }
+        >
           <Link href="/" className="relative block shrink-0">
-            <Image src="/logo-pvb.svg" alt="logo" width={200} height={200} />
-
-            {/* <div className="flex flex-col items-center">
-              
-            </div> */}
+            <Image
+              src="/logo-pvb.svg"
+              alt="logo"
+              width={130}
+              height={100}
+              className=" max-md:h-[80px] relative top-[10px] max-md:-left-4"
+            />
           </Link>
           <nav className="flex items-center gap-4">
             <ul className="flex md:gap-4 gap-2 items-center">
-              <li>
-                <Link className="header-link relative" href="/favorite"></Link>
-              </li>
-              <li>
-                <Link className="header-link relative" href="/cart"></Link>
-              </li>
-              <li className={`self-center ml-6  max-md:hidden`}></li>
+              {HEADER_MENU.map((menu) => (
+                <li key={menu.value}>
+                  <Link className="header-link  max-md:hidden" href={menu.href}>
+                    {menu.value}
+                  </Link>
+                </li>
+              ))}
               <li className={`self-center ml-4  md:hidden`}>
                 <Hamburger
                   className="md:hidden"
