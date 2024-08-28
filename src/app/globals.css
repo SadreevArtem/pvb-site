@@ -25,6 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.header-scroll {
+  data-bgcolor-rgba-afterscroll:"rgba(255,255,255,0.70)"
+}
 
 @layer utilities {
   .text-balance {

@@ -1,14 +1,27 @@
 'use client'
 import Link from "next/link";
 import { Hamburger } from "../Hamburger";
-import { useState } from "react";
+import { useState, useTransition } from "react";
 import { HEADER_MENU } from "../Hamburger/static";
 import Image from "next/image";
+import { useLocale, useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
 
 
 
 
 export default function Header ()  {
+  const t = useTranslations('Header');
+  const localActive = useLocale();
+  const router = useRouter();
+  const [_, startTransition] = useTransition();
+
+  const onChangeHandler = ()=> {
+    const nextLocale = localActive === 'ru' ? 'en' : 'ru';
+    startTransition(() => {
+      router.replace(`/${nextLocale}`);
+    });
+  }
     const [hamburgerActive, setHamburgerActive] = useState(false);
   const onOpen = () => {
     setHamburgerActive(true);
@@ -19,7 +32,7 @@ export default function Header ()  {
     document.body.style.removeProperty("overflow");
   };
     return (
-      <header className="lg:px-24 px-3 header-scroll fixed top-0 z-10 bg-cover w-full border-b-1 border-[#c7c9c8] lg:h-[100px]">
+      <header className="lg:px-24 header-scroll px-3 fixed top-0 z-10 bg-cover w-full border-b-1 border-[#c7c9c8] lg:h-[100px]">
         <div
           className={
             "container flex items-center justify-between min-h-6 w-full"
@@ -35,11 +48,16 @@ export default function Header ()  {
             />
           </Link>
           <nav className="flex items-center gap-4">
-            <ul className="flex md:gap-4 gap-2 items-center">
+            <ul className="flex md:gap-4 items-center">
+              <li>
+                <button className="header-link" onClick={onChangeHandler}>
+                  {localActive === "ru" ? "EN" : "RU"}
+                </button>
+              </li>
               {HEADER_MENU.map((menu) => (
                 <li key={menu.value}>
                   <Link className="header-link  max-md:hidden" href={menu.href}>
-                    {menu.value}
+                    {t(menu.value)}
                   </Link>
                 </li>
               ))}

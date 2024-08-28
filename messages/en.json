@@ -1,0 +1,10 @@
+{
+    "Header": {
+      "main": "Home page",
+      "about": "About",
+      "programs": "Programs",
+      "consultation": "Consultation",
+      "education": "Education",
+      "contacts": "Contacts"
+    }
+}

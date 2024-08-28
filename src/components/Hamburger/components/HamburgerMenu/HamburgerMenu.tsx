@@ -5,6 +5,7 @@ import { clsx } from "clsx";
 import { useRouter } from "next/router";
 import { HeaderMenuItem } from "../../static";
 import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 type Props = {
   menu: HeaderMenuItem[];
@@ -16,7 +17,7 @@ export const HamburgerMenu: React.FC<Props> = ({ menu, onClose, className = "" }
   const pathname = usePathname()
   const paths = pathname.split("/");  
   const listItemClassName = "last:mb-0 last:border-b-[1px] py-2 px-4 border-t-[1px] border-gray";
-
+  const t = useTranslations('Header');
   return (
     <div className={clsx("fixed z-40 top-[80px] right-0 left-0 bottom-0 bg-cover opacity-90", className)}>
       <div className='container max-h-full pb-3 overflow-y-auto'>
@@ -29,7 +30,7 @@ export const HamburgerMenu: React.FC<Props> = ({ menu, onClose, className = "" }
               })}
             >
               <Link href='/' className='block w-full  text-primary' onClick={onClose}>
-                Главная
+                {t('main')}
               </Link>
             </li>
             {menu.map((item) => (
@@ -40,7 +41,7 @@ export const HamburgerMenu: React.FC<Props> = ({ menu, onClose, className = "" }
                 })}
               >
                 <Link href={item.href} className={clsx("block w-full text-primary")} onClick={onClose}>
-                  {item.value}
+                  {t(item.value)}
                 </Link>
               </li>
             ))}

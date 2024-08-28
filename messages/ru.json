@@ -1,0 +1,10 @@
+{
+    "Header": {
+      "main": "Главная",
+      "about": "О нас",
+      "programs": "Программы",
+      "consultation": "Консультация",
+      "education": "Обучение",
+      "contacts": "Контакты"
+    }
+}
