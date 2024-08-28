@@ -1,5 +1,5 @@
 import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import {getMessages, unstable_setRequestLocale} from 'next-intl/server';
 import { Montserrat } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/Header/Header";
@@ -22,6 +22,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: {locale: string};
 }) {
+  unstable_setRequestLocale(locale);
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
