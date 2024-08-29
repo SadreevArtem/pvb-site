@@ -6,5 +6,10 @@
       "consultation": "Consultation",
       "education": "Education",
       "contacts": "Contacts"
+    },
+    "HomePageBanner": {
+      "title": "PVB TITLE",
+      "description": "description",
+         "button": "READ MORE"
     }
 }

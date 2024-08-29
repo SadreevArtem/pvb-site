@@ -1,3 +1,4 @@
+import { Banner } from "@/components/Banner/Banner";
 import { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
 // import Image from "next/image";
@@ -14,8 +15,11 @@ export default function Home({
 }) {
   unstable_setRequestLocale(locale);
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      pvb start пвб старт ТТТТ
+    <main className="min-h-screen">
+     <Banner images={[
+            { url: "/banner.png" },
+            { url: "/banner3.png" },
+          ]} />
     </main>
   );
 }

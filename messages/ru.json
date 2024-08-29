@@ -6,5 +6,10 @@
       "consultation": "Консультация",
       "education": "Обучение",
       "contacts": "Контакты"
+    },
+    "HomePageBanner": {
+      "title": "Заголовок",
+      "description": "описание",
+      "button": "Подробнее"
     }
 }

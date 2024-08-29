@@ -35,6 +35,7 @@ const config: Config = {
         md: "768px",
         lg: "1280px",
         xl: "1440px",
+        xxl: "1536px",
       },
     },
   },
