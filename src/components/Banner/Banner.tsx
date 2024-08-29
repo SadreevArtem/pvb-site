@@ -53,7 +53,7 @@ export const Banner: React.FC<BannerProps> = ({ images }) => {
               />
             </CSSTransition>
           </SwitchTransition>
-          <div className="absolute top-0 left-0 w-[70%] h-full lg:p-24 py-24 pl-4 flex flex-col items-start md:gap-16 max-md:justify-between">
+          <div className="absolute top-0 left-0 w-[50%] h-full lg:px-24 py-8 pl-4 flex flex-col items-start md:justify-between justify-around">
             <h1 className="text-white lg:text-[90px] md:text-[45px] text-[36px] font-bold">
               {t("title")}
             </h1>
@@ -62,7 +62,7 @@ export const Banner: React.FC<BannerProps> = ({ images }) => {
             </p>
             <Link
               href={"/about"}
-              className="text-white text-[18px] rounded-full font-bold border-white border p-2 px-8 cursor-pointer
+              className="text-white text-[18px] rounded-full font-bold border-white border p-2 md:px-8 px-7 cursor-pointer
                hover:bg-white hover:text-primary"
             >
               {t("button")}
