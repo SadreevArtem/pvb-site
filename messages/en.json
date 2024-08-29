@@ -11,5 +11,24 @@
       "title": "PVB TITLE",
       "description": "description",
          "button": "READ MORE"
+    },
+    "AboutBlock": {
+      "title": "About PVB",
+      "text": "The company specializes in supplying high-quality equipment and components for the oil and gas industry. We offer a full range of products, including valves, pumps, compressors, pipes, and other essential components required for the successful and safe operation of leading companies such as Gazprom Neft, Rosneft, Lukoil, Sibur, and other key players in the industry.",
+       "button": "READ MORE"
+    },
+    "NewsBlock" : {
+      "titleMain": "News",
+
+      "title1": "New Initiative to Enhance Reliability of Equipment Supplies for the Oil and Gas Industry",
+      "date1": "MOSCOW, September 2, 2024",
+
+      "title2": "Survey: Company Clients Support the Use of Innovative Technologies in the Oil and Gas Industry",
+      "date2": "MOSCOW, August 28, 2024",
+
+      "title3": "Company Strengthens Cooperation with Leading International Manufacturers to Improve Supply Quality",
+      "date3": "MOSCOW, August 20, 2024",
+       "button": "LEARN MORE",
+        "newsLink": "SEE ALL NEWS"
     }
 }

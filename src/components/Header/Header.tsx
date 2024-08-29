@@ -50,13 +50,13 @@ export default function Header ()  {
           <nav className="flex items-center gap-4">
             <ul className="flex md:gap-4 items-center">
               <li>
-                <button className="header-link" onClick={onChangeHandler}>
+                <button className="header-link " onClick={onChangeHandler}>
                   {localActive === "ru" ? "EN" : "RU"}
                 </button>
               </li>
               {HEADER_MENU.map((menu) => (
                 <li key={menu.value}>
-                  <Link className="header-link  max-md:hidden" href={menu.href}>
+                  <Link className="header-link max-md:hidden" href={menu.href}>
                     {t(menu.value)}
                   </Link>
                 </li>

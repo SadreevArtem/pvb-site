@@ -1,4 +1,6 @@
+import { AbotBlock } from "@/components/AboutBlock/AboutBlock";
 import { Banner } from "@/components/Banner/Banner";
+import { NewsBlock } from "@/components/NewsBlock/NewsBlock";
 import { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
 // import Image from "next/image";
@@ -16,10 +18,9 @@ export default function Home({
   unstable_setRequestLocale(locale);
   return (
     <main className="min-h-screen">
-     <Banner images={[
-            { url: "/banner.png" },
-            { url: "/banner3.png" },
-          ]} />
+      <Banner images={[{ url: "/banner.png" }, { url: "/banner3.png" }]} />
+      <AbotBlock />
+      <NewsBlock />
     </main>
   );
 }

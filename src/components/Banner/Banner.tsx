@@ -53,7 +53,7 @@ export const Banner: React.FC<BannerProps> = ({ images }) => {
               />
             </CSSTransition>
           </SwitchTransition>
-          <div className="absolute top-0 left-0 w-[70%] h-full lg:p-24 py-24 pl-4 flex flex-col items-start gap-16">
+          <div className="absolute top-0 left-0 w-[70%] h-full lg:p-24 py-24 pl-4 flex flex-col items-start md:gap-16 max-md:justify-between">
             <h1 className="text-white lg:text-[90px] md:text-[45px] text-[36px] font-bold">
               {t("title")}
             </h1>

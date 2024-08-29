@@ -16,7 +16,8 @@ const config: Config = {
       colors: {
         primary: "#17457a",
         cover: "#e9ebea",
-        gray: "#797d82"
+        gray: "#797d82",
+        'title-red': "#cd163f",
       },
       fontSize: {
         xs: ["12px", "16px"],

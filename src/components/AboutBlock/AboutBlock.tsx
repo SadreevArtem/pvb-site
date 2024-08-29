@@ -1,0 +1,37 @@
+import { useTranslations } from "next-intl";
+import Image from "next/image";
+import Link from "next/link";
+
+export const AbotBlock: React.FC = () => {
+    const t = useTranslations("AboutBlock")
+    return (
+      <section className=" xxl:px-24 lg:mt-[60px] pb-8">
+        <div className="container ">
+          <h2 className="text-title-red text-[54px] font-bold mt-[20px] mb-[30px]">
+            {t("title")}
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="">
+              <p className="lg:text-[21px] text-[18px] mb-6 lg:mb-8 text-[#333738]">{t("text")}</p>
+              <Link
+                href={"/about"}
+                className="text-primary text-[18px] rounded-full font-bold border-primary border-2 p-2 px-8 cursor-pointer
+               hover:bg-primary hover:text-white"
+              >
+                {t("button")}
+              </Link>
+            </div>
+            <div className="max-md:hidden ">
+              <Image
+                src="/armatura.jpg"
+                alt="запортная арматура"
+                className="object-cover max-h-[400px]"
+                width={800}
+                height={600}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+}
