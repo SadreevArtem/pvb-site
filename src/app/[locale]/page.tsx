@@ -18,7 +18,7 @@ export default function Home({
   unstable_setRequestLocale(locale);
   return (
     <main className="min-h-screen">
-      <Banner images={[{ url: "/banner.png" }, { url: "/banner3.png" }]} />
+      <Banner images={[{ url: "/banner3.png" }, { url: "/banner.png" }]} />
       <AbotBlock />
       <NewsBlock />
     </main>
