@@ -1,6 +1,5 @@
 'use client'
 import { useTranslations } from "next-intl";
-import Image from "next/image"
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { SwitchTransition, CSSTransition } from "react-transition-group";
@@ -29,7 +28,7 @@ export const Banner: React.FC<BannerProps> = ({ images }) => {
     <div className="relative w-full lg:mt-[100px] md:mt-[90px] mt-[80px]">
       <div className="flex justify-center items-start ">
         <div className="h-[60vh] ">
-          <SwitchTransition mode="in-out">
+          {/* <SwitchTransition mode="in-out">
             <CSSTransition
               nodeRef={imageRef}
               key={activeBannerIndex}
@@ -52,7 +51,13 @@ export const Banner: React.FC<BannerProps> = ({ images }) => {
                 quality={100}
               />
             </CSSTransition>
-          </SwitchTransition>
+          </SwitchTransition> */}
+          <div className="absolute top-0 left-0 right-0 bg-black  h-full">
+           
+          </div>
+         
+            <video className="absolute top-0 right-0 md:w-[60%] w-[100%] h-full object-cover" src={require('../../../public/video.mov')} autoPlay muted loop></video>
+      
           <div className="absolute top-0 left-0 w-[50%] h-full lg:px-24 py-8 pl-4 flex flex-col items-start md:justify-between justify-around">
             <h1 className="text-white lg:text-[90px] md:text-[45px] text-[36px] font-bold">
               {t("title")}
