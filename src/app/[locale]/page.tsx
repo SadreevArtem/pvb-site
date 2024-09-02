@@ -1,5 +1,6 @@
 import { AbotBlock } from "@/components/AboutBlock/AboutBlock";
 import { Banner } from "@/components/Banner/Banner";
+import { EducationBlock } from "@/components/EducationBlock/EducationBlock";
 import { NewsBlock } from "@/components/NewsBlock/NewsBlock";
 import { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
@@ -21,6 +22,7 @@ export default function Home({
       <Banner images={[{ url: "/banner3.png" }, { url: "/banner.png" }]} />
       <AbotBlock />
       <NewsBlock />
+      <EducationBlock />
     </main>
   );
 }

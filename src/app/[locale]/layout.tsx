@@ -4,6 +4,7 @@ import { Montserrat } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/Header/Header";
 import { locales } from '@/i18n';
+import Footer from '@/components/Footer/Footer';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -33,6 +34,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
         <Header />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

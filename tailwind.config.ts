@@ -17,6 +17,7 @@ const config: Config = {
         primary: "#17457a",
         cover: "#e9ebea",
         gray: "#797d82",
+        grayText: "#333738",
         'title-red': "#cd163f",
       },
       fontSize: {
