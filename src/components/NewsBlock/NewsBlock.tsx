@@ -1,9 +1,12 @@
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import Link from "next/link";
 import { AppIcon } from "../AppIcon";
 
-export const NewsBlock: React.FC = () => {
+type Props = {
+  locale: string;
+}
+
+export const NewsBlock: React.FC<Props> = ({locale}) => {
     const t = useTranslations("NewsBlock")
     return (
       <section className=" xxl:px-24 lg:mt-[60px] bg-primary pb-[64px]">
@@ -20,7 +23,7 @@ export const NewsBlock: React.FC = () => {
                   </h3>
                   <p className="mb-4 text-white">{t(`date${i + 1}`)}</p>
                   <Link
-                    href={"/about"}
+                     href={`/${locale}/news`}
                     className="text-white text-[18px] rounded-full font-bold border-white border-2 p-2 px-8 cursor-pointer
                              hover:bg-primary hover:text-white"
                   >
@@ -41,7 +44,7 @@ export const NewsBlock: React.FC = () => {
             </div> */}
           </div>
           <div className="flex items-center mt-12">
-            <Link className="uppercase text-white text-[30px] font-bold" href={"/news"}>
+            <Link className="uppercase text-white text-[30px] font-bold"  href={`/${locale}/news`}>
               {t("newsLink")}
             </Link>
             <AppIcon type="chevron-right" className="text-white w-8 h-8" />

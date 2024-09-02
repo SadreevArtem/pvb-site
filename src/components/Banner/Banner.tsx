@@ -6,9 +6,10 @@ import { SwitchTransition, CSSTransition } from "react-transition-group";
 
 type BannerProps = {
     images: {url: string}[];
+    locale: string;
   };
 
-export const Banner: React.FC<BannerProps> = ({ images }) => {
+export const Banner: React.FC<BannerProps> = ({ images, locale }) => {
   const [activeBannerIndex, setActiveBannerIndex] = useState(0);
   const activeBanner = images[activeBannerIndex];
   const imageRef = useRef<HTMLImageElement>(null);
@@ -66,7 +67,7 @@ export const Banner: React.FC<BannerProps> = ({ images }) => {
               {t("description")}
             </p>
             <Link
-              href={"/about"}
+              href={`/${locale}/about`}
               className="text-white text-[18px] rounded-full font-bold border-white border p-2 md:px-8 px-7 cursor-pointer
                hover:bg-white hover:text-primary"
             >

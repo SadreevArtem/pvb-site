@@ -2,7 +2,11 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
-export const AbotBlock: React.FC = () => {
+type Props = {
+  locale: string;
+}
+
+export const AboutBlock: React.FC<Props> = ({locale}) => {
     const t = useTranslations("AboutBlock")
     return (
       <section className=" xxl:px-24 lg:mt-[60px] pb-8">
@@ -14,7 +18,7 @@ export const AbotBlock: React.FC = () => {
             <div className="">
               <p className="lg:text-[21px] text-[18px] mb-6 lg:mb-8 text-[#333738]">{t("text")}</p>
               <Link
-                href={"/about"}
+                href={`/${locale}/about`}
                 className="text-primary text-[18px] rounded-full font-bold border-primary border-2 p-2 px-8 cursor-pointer
                hover:bg-primary hover:text-white"
               >

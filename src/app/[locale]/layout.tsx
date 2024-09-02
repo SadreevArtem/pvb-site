@@ -32,7 +32,7 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className={montserrat.className}>
         <NextIntlClientProvider messages={messages}>
-        <Header />
+          <Header />
           {children}
           <Footer />
         </NextIntlClientProvider>

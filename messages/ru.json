@@ -42,10 +42,40 @@
     "title3": "Безопасность и соблюдение норм",
     "duration3": "24 часа"
   },
+  "Feedback" : {
+    "question":"Есть вопросы?",
+    "description":"Оставьте свои данные для обратной связи с Вашим вопросом и мы обязательно Вам ответим.",
+    "name": "Ваше имя",
+    "email": "Ваша почта",
+    "message": "Ваш вопрос",
+    "typeName": "Введите ваше имя",
+    "typeEmail": "Введите вашу почту",
+    "typeMessage": "Введите ваш вопрос",
+    "required": "обязательные поля",
+        "button": "отправить"
+  },
   "Footer": {
     "link1": "Консультации",
     "link2": "Обучение",
     "link3": "Программы",
     "educationLink": "все программы"
+  },
+  "AboutPage" : {
+    "title":"О компании"
+  },
+  "ConsultationPage" : {
+    "title":"Консультации"
+  },
+  "ContactsPage" : {
+    "title": "Контакты"
+  },
+  "EducationPage" : {
+    "title": "Обучение"
+  },
+  "NewsPage": {
+    "title": "Новости"
+  },
+  "ProgramsPage" : {
+    "title": "Программы"
   }
 }

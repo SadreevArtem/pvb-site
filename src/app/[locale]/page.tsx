@@ -1,10 +1,10 @@
-import { AbotBlock } from "@/components/AboutBlock/AboutBlock";
+import { AboutBlock } from "@/components/AboutBlock/AboutBlock";
 import { Banner } from "@/components/Banner/Banner";
 import { EducationBlock } from "@/components/EducationBlock/EducationBlock";
+import { Feedback } from "@/components/Feedback/Feedback";
 import { NewsBlock } from "@/components/NewsBlock/NewsBlock";
 import { Metadata } from "next";
 import { unstable_setRequestLocale } from "next-intl/server";
-// import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "PVB",
@@ -19,10 +19,11 @@ export default function Home({
   unstable_setRequestLocale(locale);
   return (
     <main className="min-h-screen">
-      <Banner images={[{ url: "/banner3.png" }, { url: "/banner.png" }]} />
-      <AbotBlock />
-      <NewsBlock />
-      <EducationBlock />
+      <Banner images={[{ url: "/banner3.png" }, { url: "/banner.png" }]} locale={locale} />
+      <AboutBlock locale={locale}/>
+      <NewsBlock locale={locale}/>
+      <EducationBlock locale={locale}/>
+      <Feedback />
     </main>
   );
 }

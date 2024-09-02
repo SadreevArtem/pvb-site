@@ -5,7 +5,7 @@ import { clsx } from "clsx";
 import { useRouter } from "next/router";
 import { HeaderMenuItem } from "../../static";
 import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 type Props = {
   menu: HeaderMenuItem[];
@@ -15,6 +15,7 @@ type Props = {
 
 export const HamburgerMenu: React.FC<Props> = ({ menu, onClose, className = "" }) => {
   const pathname = usePathname()
+  const localActive = useLocale();
   const paths = pathname.split("/");  
   const listItemClassName = "last:mb-0 last:border-b-[1px] py-2 px-4 border-t-[1px] border-gray";
   const t = useTranslations('Header');
@@ -40,7 +41,7 @@ export const HamburgerMenu: React.FC<Props> = ({ menu, onClose, className = "" }
                   "bg-bgOpacity": pathname.includes(`${item.href}`)
                 })}
               >
-                <Link href={item.href} className={clsx("block w-full text-primary")} onClick={onClose}>
+                <Link href={`/${localActive}${item.href}`} className={clsx("block w-full text-primary")} onClick={onClose}>
                   {t(item.value)}
                 </Link>
               </li>

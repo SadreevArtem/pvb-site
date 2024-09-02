@@ -42,9 +42,39 @@
     "title3": "Safety and Compliance in Oil & Gas",
     "duration3": "24 hours"
   },
+  "Feedback" : {
+    "question":"Do you have questions?",
+    "description": "Leave your details for feedback with your question and we will definitely answer you.",
+    "name": "Your name",
+    "email": "Your E-mail",
+    "message": "Your question",
+    "typeName": "Enter your name",
+    "typeEmail": "Enter your E-mail",
+    "typeMessage": "Enter your question",
+     "required": "required fields",
+     "button": "submit"
+  },
   "Footer": {
     "link1": "Consultation",
     "link2": "Education",
     "link3": "Soft"
+  },
+  "AboutPage" : {
+    "title":"About API"
+  },
+  "ConsultationPage" : {
+    "title":"Consultation"
+  },
+  "ContactsPage" : {
+    "title": "Contacts"
+  },
+  "EducationPage" : {
+    "title": "Education"
+  },
+  "NewsPage": {
+    "title": "News"
+  },
+  "ProgramsPage" : {
+    "title": "Programs"
   }
 }

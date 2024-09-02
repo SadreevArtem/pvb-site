@@ -56,7 +56,7 @@ export default function Header ()  {
               </li>
               {HEADER_MENU.map((menu) => (
                 <li key={menu.value}>
-                  <Link className="header-link max-md:hidden" href={menu.href}>
+                  <Link className="header-link max-md:hidden" href={`/${localActive}${menu.href}`}>
                     {t(menu.value)}
                   </Link>
                 </li>
