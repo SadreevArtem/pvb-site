@@ -1,7 +1,14 @@
 import { useTranslations } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 import React from 'react'
 
- const News = () => {
+ const News = (
+  {
+    params: { locale },
+  }: {
+    params: { locale: string };
+  }) =>{
+    unstable_setRequestLocale(locale);
     const t = useTranslations("NewsPage")
   return (
     <div className='min-h-[50vh] mt-[140px]'>

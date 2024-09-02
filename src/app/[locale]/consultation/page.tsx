@@ -1,7 +1,15 @@
 import { useTranslations } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 import React from 'react'
 
- const Consultation = () => {
+ const Consultation = (
+  {
+    params: { locale },
+  }: {
+    params: { locale: string };
+  }) =>{
+    unstable_setRequestLocale(locale);
+
     const t = useTranslations("ConsultationPage")
   return (
     <div className='min-h-[50vh] mt-[140px]'>
