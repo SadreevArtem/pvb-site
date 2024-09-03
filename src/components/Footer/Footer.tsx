@@ -30,16 +30,16 @@ const Footer = () => {
             <Link href={`/${localActive}/consultation`}>{t("link1")}</Link>
           </h3>
           <Link className="text-grayText hover:text-black" href={"/"}>
-            <span>Административная деятельность организации</span>
+            <span>{t("consultationOne")}</span>
           </Link>
           <Link className="text-grayText hover:text-black" href={"/"}>
-            <span>Консультация в области клапанов</span>
+            <span>{t("consultationTwo")}</span>
           </Link>
           <Link className="text-grayText hover:text-black" href={"/"}>
-            <span>Проведение технических аудитов</span>
+            <span>{t("consultationThree")}</span>
           </Link>
           <Link className="text-grayText hover:text-black" href={"/"}>
-            <span>Проведение технических переговоров</span>
+            <span>{t("consultationFour")}</span>
           </Link>
         </div>
         <div className="flex flex-col gap-2">
@@ -47,10 +47,10 @@ const Footer = () => {
           <Link href={`/${localActive}/education`}>{t("link2")}</Link>
           </h3>
           <Link className="text-grayText hover:text-black" href={"/"}>
-            <span>Запорная арматура</span>
+            <span>{t("educationOne")}</span>
           </Link>
           <Link className="text-grayText hover:text-black" href={"/"}>
-            <span>Безопасность на производстве</span>
+          <span>{t("educationTwo")}</span>
           </Link>
         </div>
         <div className="flex flex-col gap-2">

@@ -56,9 +56,15 @@
   },
   "Footer": {
     "link1": "Consultation",
+    "consultationOne": "Administrative Activities of the Organization",
+    "consultationTwo": "Valve Consultation",
+    "consultationThree": "Technical Audits",
+    "consultationFour": "Technical Negotiations",
     "link2": "Education",
+    "educationOne": "Valves",
+    "educationTwo": "Safety in Production",
     "link3": "Soft",
-    "linkPolicy":"Privacy рolicy" 
+    "linkPolicy": "Privacy рolicy"
   },
   "AboutPage" : {
     "title":"About API"
