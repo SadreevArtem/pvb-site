@@ -9,7 +9,7 @@ const Footer = () => {
   const localActive = useLocale();
   return (
     <footer className="w-full pt-4 md:mt-[60px] mt-4 xxl:px-24 max-sm:hidden">
-      <div className="container grid md:grid-cols-4 md:gap-8 gap-4">
+      <div className="container grid md:grid-cols-4 md:gap-8 gap-4 md:mb-24">
         <div className='text-sm flex flex-col gap-[12px]'>
           <Link href="/" className="relative block shrink-0">
             <Image
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-primary font-extrabold uppercase text-[24px] mb-3">
-            {t("link1")}
+            <Link href={`/${localActive}/consultation`}>{t("link1")}</Link>
           </h3>
           <Link className="text-grayText hover:text-black" href={"/"}>
             <span>Административная деятельность организации</span>
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-primary font-extrabold uppercase text-[24px] mb-3">
-            {t("link2")}
+          <Link href={`/${localActive}/education`}>{t("link2")}</Link>
           </h3>
           <Link className="text-grayText hover:text-black" href={"/"}>
             <span>Запорная арматура</span>
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-primary font-extrabold uppercase text-[24px] mb-3">
-            {t("link3")}
+          <Link href={`/${localActive}/programs`}>{t("link3")}</Link>
           </h3>
           <Link className="text-grayText hover:text-black" href={"/"}>
             <span>PVB-U ©</span>
@@ -65,10 +65,10 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className=" h-[1px] bg-[#797D82] opacity-15 my-4"> </div>
+      <div className="h-[1px] bg-[#797D82] opacity-15 my-4"> </div>
       <div className="container">
         <Link
-          className="uppercase md:my-12 my-6 block text-link"
+          className="uppercase md:my-8 my-6 block text-link"
           href={`/${localActive}/policy`}
         >
           {t("linkPolicy")}
