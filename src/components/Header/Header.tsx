@@ -38,13 +38,13 @@ export default function Header ()  {
             "container flex items-center justify-between min-h-6 w-full"
           }
         >
-          <Link href="/" className="relative block shrink-0">
+          <Link href="/" className="relative block shrink-0 py-2">
             <Image
-              src="/logo-pvb.svg"
+              src="/logo-max.png"
               alt="logo"
               width={130}
               height={100}
-              className=" max-md:h-[80px] relative top-[10px] max-md:-left-4"
+              className=" h-[80px] max-md:h-[70px] w-auto relative max-md:-left-4"
             />
           </Link>
           <nav className="flex items-center gap-4">

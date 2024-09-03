@@ -13,11 +13,11 @@ const Footer = () => {
         <div className='text-sm flex flex-col gap-[12px]'>
           <Link href="/" className="relative block shrink-0">
             <Image
-              src="/logo-pvb.svg"
+              src="/logo-max.png"
               alt="logo"
-              width={180}
+              width={220}
               height={100}
-              className=" max-md:h-[80px] relative max-md:-left-4"
+              className="relative max-md:-left-4"
             />
           </Link>
           <p className='block'>© 2024 ИП Бондаренко В.В.</p>
