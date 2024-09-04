@@ -1,9 +1,15 @@
 import { AboutPageTabs } from '@/components/AboutPageTabs/AboutPageTabs';
 import { Feedback } from '@/components/Feedback/Feedback';
+import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import React from 'react'
+
+export const metadata: Metadata = {
+  title: "О компании",
+  description: "site pvb",
+};
 
  const About = (
   {
