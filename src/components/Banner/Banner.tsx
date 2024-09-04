@@ -53,12 +53,17 @@ export const Banner: React.FC<BannerProps> = ({ images, locale }) => {
               />
             </CSSTransition>
           </SwitchTransition> */}
-          <div className="absolute top-0 left-0 right-0 bg-black  h-full">
-           
-          </div>
-         
-            <video className="absolute top-0 right-0 md:w-[60%] w-[100%] h-full object-cover" src={require('../../../public/video1080.mp4')} autoPlay muted loop playsInline></video>
-      
+          <div className="absolute top-0 left-0 right-0 bg-black  h-full"></div>
+
+          <video
+            className="absolute top-0 right-0 md:w-[60%] w-[100%] h-full object-cover"
+            src={require("../../../public/video1080.mp4")}
+            autoPlay
+            muted
+            loop
+            playsInline
+          ></video>
+
           <div className="absolute top-0 left-0 w-[50%] h-full lg:px-24 py-8 pl-4 flex flex-col items-start md:justify-between justify-around">
             <h1 className="text-white lg:text-[90px] md:text-[45px] text-[36px] font-bold">
               {t("title")}
