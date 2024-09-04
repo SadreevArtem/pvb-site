@@ -13,7 +13,7 @@ const AboutContent: {
 export const AboutPageTabs = () => {
     const [tab, setTab]= useState<string>("Overview");
   return (
-    <div className='container flex gap-8 mt-8 flex-col md:flex-row text-[#333738]'>
+    <div className='container flex gap-8 mt-8 flex-col md:flex-row text-[#333738] pb-12'>
         <Tabs currentTab={tab} setTab={setTab} categories={Object.keys(AboutContent)}/>
         <div>
             <p>{AboutContent[tab]}</p>
