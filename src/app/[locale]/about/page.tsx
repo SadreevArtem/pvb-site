@@ -14,12 +14,12 @@ import React from 'react'
  
     const t = useTranslations("AboutPage")
   return (
-    <div className="min-h-[50vh] md:mt-[100px] mt-[86px]">
+    <div className="min-h-[50vh] md:mt-[100px] mt-[86px] bg-white">
       <div className='h-[140px] w-full relative'>
         <Image src={"/background.png"} alt={""} width={1000} height={100} className='object-cover w-full h-full'  />
       </div>
-      <div className="container">
-        <h1 className="md:text-[72px] text-[36px] text-primary font-bold">{t("title")}</h1>
+      <div className="container mt-6">
+        <h1 className="md:text-[72px] md:ml-[260px] text-[36px] text-primary font-bold">{t("title")}</h1>
       </div>
       <AboutPageTabs />
     </div>

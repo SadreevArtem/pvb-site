@@ -68,7 +68,10 @@
     "linkPolicy": "политика конфиденциальности" 
   },
   "AboutPage" : {
-    "title":"О компании"
+    "title":"О компании",
+    "Overview": "Обзор",
+    "Experience": "Опыт",
+    "Contacts": "Контакты"
   },
   "ConsultationPage" : {
     "title":"Консультации"

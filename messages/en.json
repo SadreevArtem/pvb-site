@@ -67,7 +67,10 @@
     "linkPolicy": "Privacy рolicy"
   },
   "AboutPage" : {
-    "title":"About API"
+    "title":"About API",
+    "Overview": "Overview",
+    "Experience": "Experience",
+    "Contacts": "Contacts"
   },
   "ConsultationPage" : {
     "title":"Consultation"

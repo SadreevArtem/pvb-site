@@ -19,7 +19,8 @@ const config: Config = {
         gray: "#797d82",
         grayText: "#333738",
         'title-red': "#cd163f",
-        link: '#2b7bb9'
+        link: '#2b7bb9',
+        tab: "#e9ebea"
       },
       fontSize: {
         xs: ["12px", "16px"],
