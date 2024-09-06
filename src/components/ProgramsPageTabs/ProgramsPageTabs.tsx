@@ -13,7 +13,7 @@ const ProgramsContent: {
 };
 
 export const ProgramsPageTabs = () => {
-    const [tab, setTab]= useState<string>("Overview");
+    const [tab, setTab]= useState<string>("pvb-u");
   return (
     <div className="container flex gap-8 mt-8 flex-col md:flex-row text-[#333738] pb-12">
       <Tabs

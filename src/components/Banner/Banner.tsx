@@ -56,7 +56,7 @@ export const Banner: React.FC<BannerProps> = ({ images, locale }) => {
           <div className="absolute top-0 left-0 right-0 bg-black  h-full"></div>
 
           <video
-            className="absolute top-0 md:right-0 right-[-60px] md:w-[60%] w-[100%] h-full object-cover"
+            className="absolute top-0 right-0  md:w-[60%] w-[100%] h-full object-cover"
             src={require("../../../public/video1080.mp4")}
             autoPlay
             muted
