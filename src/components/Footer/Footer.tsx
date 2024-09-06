@@ -20,7 +20,7 @@ const Footer = () => {
               className="relative max-md:-left-4"
             />
           </Link>
-          <p className='block'>© 2024 ИП Бондаренко В.В.</p>
+          <p className='block'>© 2024 ИП Бондаренко В. В.</p>
           <p className='block'>Procurement Victor Bondarenko</p>
           <p className='block'>ИНН 503212020713</p>
           <p className='block'>E-mail: <Link className='text-link' href={"mailto:pvb@procurementpvb.com"}>pvb@procurementpvb.com</Link></p>

@@ -26,9 +26,9 @@ export const Banner: React.FC<BannerProps> = ({ images, locale }) => {
     return () => clearInterval(intervalId);
   }, [onNextBannerIndex]);
   return (
-    <div className="relative w-full lg:mt-[100px] md:mt-[90px] mt-[80px]">
-      <div className="flex justify-center items-start ">
-        <div className="h-[60vh] ">
+    <div className="relative w-full lg:min-h-[450px] md:min-h-[326px] min-h-[270px]  lg:mt-[100px] md:mt-[90px] mt-[80px]">
+      <div className="flex justify-center items-start shrink-0">
+        <div className="min-h-[60vh]">
           {/* <SwitchTransition mode="in-out">
             <CSSTransition
               nodeRef={imageRef}
@@ -56,7 +56,7 @@ export const Banner: React.FC<BannerProps> = ({ images, locale }) => {
           <div className="absolute top-0 left-0 right-0 bg-black  h-full"></div>
 
           <video
-            className="absolute top-0 right-0 md:w-[60%] w-[100%] h-full object-cover"
+            className="absolute top-0 md:right-0 right-[-60px] md:w-[60%] w-[100%] h-full object-cover"
             src={require("../../../public/video1080.mp4")}
             autoPlay
             muted

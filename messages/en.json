@@ -85,6 +85,8 @@
     "title": "News"
   },
   "ProgramsPage" : {
-    "title": "Programs"
+    "title": "Programs",
+     "pvb-u": "PVB-U ©",
+    "pvb-control": "PVB Control ©"
   }
 }

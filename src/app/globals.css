@@ -42,4 +42,7 @@ body {
   .header-link {
     @apply text-primary hover:opacity-75 cursor-pointer;
   }
+  .title {
+    @apply text-primary md:text-[20px] font-bold my-2
+  }
 }

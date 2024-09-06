@@ -8,11 +8,12 @@ type Props = {
     currentTab: string;
     setTab: (tab: string) => void;
     categories: string[];
+    pageName: string;
 }
 
 
-export const Tabs: React.FC<Props> = ({ currentTab, setTab, categories }) => {
-  const t = useTranslations("AboutPage")
+export const Tabs: React.FC<Props> = ({ currentTab, setTab, categories, pageName }) => {
+  const t = useTranslations(pageName)
   return (
     <>
       <div className="flex">
