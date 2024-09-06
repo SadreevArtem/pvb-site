@@ -29,16 +29,16 @@ const Footer = () => {
           <h3 className="text-primary font-extrabold uppercase text-[24px] mb-3">
             <Link href={`/${localActive}/consultation`}>{t("link1")}</Link>
           </h3>
-          <Link className="text-grayText hover:text-black" href={"/"}>
+          <Link className="text-grayText hover:text-black" href={`/${localActive}/consultation`}>
             <span>{t("consultationOne")}</span>
           </Link>
-          <Link className="text-grayText hover:text-black" href={"/"}>
+          <Link className="text-grayText hover:text-black" href={`/${localActive}/consultation`}>
             <span>{t("consultationTwo")}</span>
           </Link>
-          <Link className="text-grayText hover:text-black" href={"/"}>
+          <Link className="text-grayText hover:text-black" href={`/${localActive}/consultation`}>
             <span>{t("consultationThree")}</span>
           </Link>
-          <Link className="text-grayText hover:text-black" href={"/"}>
+          <Link className="text-grayText hover:text-black" href={`/${localActive}/consultation`}>
             <span>{t("consultationFour")}</span>
           </Link>
         </div>
@@ -46,10 +46,10 @@ const Footer = () => {
           <h3 className="text-primary font-extrabold uppercase text-[24px] mb-3">
           <Link href={`/${localActive}/education`}>{t("link2")}</Link>
           </h3>
-          <Link className="text-grayText hover:text-black" href={"/"}>
+          <Link className="text-grayText hover:text-black" href={`/${localActive}/education`}>
             <span>{t("educationOne")}</span>
           </Link>
-          <Link className="text-grayText hover:text-black" href={"/"}>
+          <Link className="text-grayText hover:text-black" href={`/${localActive}/education`}>
           <span>{t("educationTwo")}</span>
           </Link>
         </div>
@@ -57,10 +57,10 @@ const Footer = () => {
           <h3 className="text-primary font-extrabold uppercase text-[24px] mb-3">
           <Link href={`/${localActive}/programs`}>{t("link3")}</Link>
           </h3>
-          <Link className="text-grayText hover:text-black" href={"/"}>
+          <Link className="text-grayText hover:text-black" href={`/${localActive}/programs`}>
             <span>PVB-U ©</span>
           </Link>
-          <Link className="text-grayText hover:text-black" href={"/"}>
+          <Link className="text-grayText hover:text-black" href={`/${localActive}/programs`}>
             <span>PVB Control ©</span>
           </Link>
         </div>
