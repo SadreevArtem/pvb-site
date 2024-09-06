@@ -27,7 +27,7 @@ export const AboutPageTabs = () => {
       <div>
         <p
           className={clsx("text-[18px] text-grayText indent-8", {
-            "whitespace-pre indent-0": tab === "Contacts",
+            "whitespace-pre !indent-0": tab === "Contacts",
           })}
         >
           {AboutContent[tab]}
