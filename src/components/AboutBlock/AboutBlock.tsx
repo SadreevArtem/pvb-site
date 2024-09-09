@@ -27,7 +27,7 @@ export const AboutBlock: React.FC<Props> = ({locale}) => {
             </div>
             <div className="max-md:hidden ">
               <Image
-                src="/armatura.jpg"
+                src="/armatura.jpeg"
                 alt="запортная арматура"
                 className="object-cover max-h-[400px]"
                 width={800}

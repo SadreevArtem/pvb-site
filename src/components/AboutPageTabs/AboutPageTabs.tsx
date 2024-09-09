@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { Tabs } from './components/Tabs/Tabs';
 import clsx from 'clsx';
+import Image from 'next/image';
 
 const AboutContent: {
   [key: string]: string;
@@ -24,7 +25,10 @@ export const AboutPageTabs = () => {
         categories={Object.keys(AboutContent)}
         pageName="AboutPage"
       />
-      <div>
+      <div className='max-lg:flex flex-col gap-8'>
+        <div className={clsx('relative lg:w-[350px] lg:h-[380px] float-left lg:mr-8', {"hidden": tab === "Contacts"})}>
+          <Image src={tab==="Overview"?"/about.jpeg":"/about2.jpeg"} alt="" width={1280} height={960} className='object-cover h-full'/>
+        </div>
         <p
           className={clsx("text-[18px] text-grayText indent-8", {
             "whitespace-pre !indent-0": tab === "Contacts",
