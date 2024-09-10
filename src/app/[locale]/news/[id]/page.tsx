@@ -1,9 +1,9 @@
 import { Feedback } from '@/components/Feedback/Feedback';
 import Image from 'next/image';
 import React from 'react'
-import { NEWS } from '../page';
 import clsx from 'clsx';
 import Link from 'next/link';
+import { NEWS } from '@/components/NewsBlock/static';
 
 
 
