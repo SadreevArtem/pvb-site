@@ -23,7 +23,7 @@ export const NewsBlock: React.FC<Props> = ({locale}) => {
                   </h3>
                   <p className="mb-4 text-white">{t(`date${i + 1}`)}</p>
                   <Link
-                     href={`/${locale}/news`}
+                     href={`/${locale}/news/${i}`}
                     className="text-white text-[18px] rounded-full font-bold border-white border-2 p-2 px-8 cursor-pointer
                              hover:bg-primary hover:text-white"
                   >

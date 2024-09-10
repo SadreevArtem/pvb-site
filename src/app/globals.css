@@ -45,4 +45,10 @@ body {
   .title {
     @apply text-primary md:text-[20px] font-bold my-2
   }
+  .bordered-card {
+    @apply border border-primary rounded;
+  }
+  .card-title {
+    @apply text-lg font-bold text-primary;
+  }
 }
