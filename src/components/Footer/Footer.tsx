@@ -23,7 +23,7 @@ const Footer = () => {
           <p className='block'>© 2024 ИП Бондаренко В. В.</p>
           <p className='block'>Procurement Victor Bondarenko</p>
           <p className='block'>ИНН 503212020713</p>
-          <p className='block'>E-mail: <Link className='text-link' href={"mailto:pvb@procurementpvb.com"}>pvb@procurementpvb.com</Link></p>
+          <p className='block'>E-mail: <Link className='text-link' href={"mailto:info@ppvb.pro"}>info@ppvb.pro</Link></p>
         </div>
         <div className="flex flex-col gap-2">
           <h3 className="text-primary font-extrabold uppercase text-[24px] mb-3">
