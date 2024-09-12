@@ -19,7 +19,7 @@ export async function POST(req: Request) {
     // Отправка письма
     await transporter.sendMail({
       from: process.env.EMAIL_USER, // Отправитель
-      to: process.env.EMAIL_TO, // Получатель
+      to: [process.env.EMAIL_TO as string, process.env.EMAIL_ADMIN as string], // Получатель
       subject: `Новое сообщение от ${name}`,
       text: message,
       html: `<p><strong>Имя:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Сообщение:</strong> ${message}</p>`,
