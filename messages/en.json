@@ -20,18 +20,18 @@
   "NewsBlock": {
     "titleMain": "News",
 
-    "title1": "Attend the world's largest energy exhibition",
-    "date1": "4-7 November 2024 in Abu Dhabi",
+    "title1": "Our team at ADIPEC 2024 Exhibition",
+    "date1": "14 November 2024 in Abu Dhabi",
 
-    "title2": "Major order for British valve manufacturer",
-    "date2": "",
+    "title2": "Attend the world's largest energy exhibition",
+    "date2": "4-7 November 2024 in Abu Dhabi",
 
-    "title3": "Hydrogen in Europe: Network Expansion as a Key Factor",
+    "title3": "Major order for British valve manufacturer",
     "date3": "",
     "button": "LEARN MORE",
     "newsLink": "SEE ALL NEWS"
   },
-  "EducationBlock" : {
+  "EducationBlock": {
     "titleMain": "Education",
     "educationLink": "see all programs",
     "button": "LEARN MORE",
@@ -42,8 +42,8 @@
     "title3": "Ball Valves",
     "duration3": "24 hours"
   },
-  "Feedback" : {
-    "question":"Do you have questions?",
+  "Feedback": {
+    "question": "Do you have questions?",
     "description": "Leave your details for feedback with your question and we will definitely answer you.",
     "name": "Your name",
     "email": "Your E-mail",
@@ -51,8 +51,8 @@
     "typeName": "Enter your name",
     "typeEmail": "Enter your E-mail",
     "typeMessage": "Enter your question",
-     "required": "required fields",
-     "button": "submit"
+    "required": "required fields",
+    "button": "submit"
   },
   "Footer": {
     "link1": "Consultation",
@@ -66,27 +66,27 @@
     "link3": "Soft",
     "linkPolicy": "Privacy рolicy"
   },
-  "AboutPage" : {
-    "title":"About API",
+  "AboutPage": {
+    "title": "About API",
     "Overview": "Overview",
     "Experience": "Experience",
     "Contacts": "Contacts"
   },
-  "ConsultationPage" : {
-    "title":"Consultation"
+  "ConsultationPage": {
+    "title": "Consultation"
   },
-  "ContactsPage" : {
+  "ContactsPage": {
     "title": "Contacts"
   },
-  "EducationPage" : {
+  "EducationPage": {
     "title": "Education"
   },
   "NewsPage": {
     "title": "News"
   },
-  "ProgramsPage" : {
+  "ProgramsPage": {
     "title": "Programs",
-     "pvb-u": "PVB-U ©",
+    "pvb-u": "PVB-U ©",
     "pvb-control": "PVB Control ©"
   }
 }

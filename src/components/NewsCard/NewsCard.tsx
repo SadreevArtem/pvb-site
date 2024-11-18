@@ -3,13 +3,15 @@ import Image from "next/image";
 import { clsx } from "clsx";
 
 type News = {
-    id: string;
-    name: string;
+  id: string;
+  name: string;
+  nameEN: string;
   title: string;
   description: string;
+  descriptionEN?: string;
   imageUrl?: string;
-  date: string
-}
+  date: string;
+};
 
 type Props = {
   item: News;
@@ -18,7 +20,12 @@ type Props = {
   className?: string;
 };
 
-export const NewsCard: React.FC<Props> = ({ item, locale,  imageSizes = "100vw", className = "" }) => {
+export const NewsCard: React.FC<Props> = ({
+  item,
+  locale,
+  imageSizes = "100vw",
+  className = "",
+}) => {
   return (
     <div
       className={clsx(
@@ -44,9 +51,11 @@ export const NewsCard: React.FC<Props> = ({ item, locale,  imageSizes = "100vw",
           href={`/${locale}/news/${item.id}`}
           className="card-title font-sans-inter hover:text-primary active:text-primary-70 mb-3 line-clamp-4"
         >
-          {item.name}
+          {locale === "ru" ? item.name : item.nameEN}
         </a>
-        <div className="text-sm line-clamp-5 mb-6">{item.description}</div>
+        <div className="text-sm line-clamp-5 mb-6">
+          {locale === "ru" ? item.description : item.descriptionEN}
+        </div>
         <div className="flex justify-between items-center mt-auto">
           <div />
 
