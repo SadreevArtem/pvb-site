@@ -87,6 +87,7 @@
   "ProgramsPage": {
     "title": "Programs",
     "pvb-u": "PVB-U ©",
-    "pvb-control": "PVB Control ©"
+    "pvb-control": "PVB Control ©",
+    "pvb-SpecFlow": "PVB SpecFlow ©"
   }
 }
