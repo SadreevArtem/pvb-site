@@ -1,7 +1,7 @@
 export type HeaderMenuItem = {
-    value: string;
-    href: string;
-  };
+  value: string;
+  href: string;
+};
 
 export const HEADER_MENU: HeaderMenuItem[] = [
   {
@@ -21,7 +21,11 @@ export const HEADER_MENU: HeaderMenuItem[] = [
     href: "/education",
   },
   {
+    value: "glossary",
+    href: "/glossary",
+  },
+  {
     value: "contacts",
     href: "/contacts",
-  }
+  },
 ];
