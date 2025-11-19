@@ -12,4 +12,6 @@ const nextConfig = {
 };
 
 // Объединение плагинов
-module.exports = withNextIntl(withVideos(nextConfig));
+const combinedConfig = withNextIntl(withVideos(nextConfig));
+
+export default combinedConfig;
