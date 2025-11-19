@@ -1,4 +1,8 @@
+import { accordeonItems } from "@/app/static";
+import { AppAccordionGroup } from "@/components/AppAccordionGroup/AppAccordionGroup";
+import { AppAccordionGroupWrapper } from "@/components/AppAccordionGroupWrapper/AppAccordionGroupWrapper";
 import { Feedback } from "@/components/Feedback/Feedback";
+import { GlossaryLinks } from "@/components/GlossaryLinks/GlossaryLinks";
 import { useLocale, useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 import Image from "next/image";
@@ -30,14 +34,24 @@ const Consultation = ({
         </h1>
       </div>
       <div className="container mb-8 text-[18px] text-grayText">
-        {Array.from({ length: 25 }, (_, i) => i + 1).map((n) => (
+        <GlossaryLinks />
+        <p id="A" className="title md: text-[48px] md:ml-[160px]">
+          {"A"}
+        </p>
+        <div className="mt-8">
+          <AppAccordionGroupWrapper items={accordeonItems} />
+        </div>
+        <p id="B" className="title md: text-[48px] md:ml-[160px]">
+          {"B"}
+        </p>
+        {/* {Array.from({ length: 25 }, (_, i) => i + 1).map((n) => (
           <div className="md:ml-[160px]" key={n}>
             <p className="title">{t(`t${n}`)}</p>
             <ul>
               <li className="indent-8">{t(`p${n}`)}</li>
             </ul>
           </div>
-        ))}
+        ))} */}
         <div className="md:ml-[160px] mt-4">
           <ul>
             <li className="indent-8">

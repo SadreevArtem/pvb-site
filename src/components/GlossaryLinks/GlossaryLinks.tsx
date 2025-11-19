@@ -1,0 +1,27 @@
+"use client";
+import { scrolltoHash } from "@/lib";
+import React from "react";
+
+type Props = {
+  className?: string;
+};
+
+export const GlossaryLinks: React.FC<Props> = ({ className = "string" }) => {
+  const alphabet = ["A", "B", "C", "E", "F"];
+  return (
+    <>
+      <ul className="flex gap-4 md:ml-[160px] my-4">
+        {alphabet.map((item, index) => (
+          <li key={index}>
+            <div
+              className="header-link hover:underline"
+              onClick={() => scrolltoHash(item)}
+            >
+              {item}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+};
