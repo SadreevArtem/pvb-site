@@ -3,11 +3,13 @@
 import React from "react";
 import { AppAccordionGroup } from "../AppAccordionGroup/AppAccordionGroup";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 type AccordionItem = {
   id?: number;
   name?: string;
   value: string[];
+  img?: string;
 };
 
 type Props = {
@@ -17,12 +19,23 @@ type Props = {
 export function AppAccordionGroupWrapper({ items }: Props) {
   const t = useTranslations("ValveTermsPage");
   const accordionContentSlot = (item: AccordionItem) => (
-    <ul>
+    <ul className="flex flex-col">
       {item.value.map((value) => (
         <li className="indent-8" key={value}>
           {t(value)}
         </li>
       ))}
+      {item.img && (
+        <li className="self-center w-64 max-w-full aspect-square relative mt-4">
+          <Image
+            alt=""
+            src={item.img}
+            fill
+            className="object-contain"
+            sizes="(max-width: 768px) 80vw, 256px"
+          />
+        </li>
+      )}
     </ul>
   );
 

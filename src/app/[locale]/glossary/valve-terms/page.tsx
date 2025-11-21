@@ -1,4 +1,4 @@
-import { accordeonItems } from "@/app/static";
+import { accordeonItemsA, accordeonItemsB } from "@/app/static";
 import { AppAccordionGroup } from "@/components/AppAccordionGroup/AppAccordionGroup";
 import { AppAccordionGroupWrapper } from "@/components/AppAccordionGroupWrapper/AppAccordionGroupWrapper";
 import { Feedback } from "@/components/Feedback/Feedback";
@@ -39,11 +39,14 @@ const Consultation = ({
           {"A"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItems} />
+          <AppAccordionGroupWrapper items={accordeonItemsA} />
         </div>
         <p id="B" className="title md: text-[48px] md:ml-[160px]">
           {"B"}
         </p>
+        <div className="mt-8">
+          <AppAccordionGroupWrapper items={accordeonItemsB} />
+        </div>
         {/* {Array.from({ length: 25 }, (_, i) => i + 1).map((n) => (
           <div className="md:ml-[160px]" key={n}>
             <p className="title">{t(`t${n}`)}</p>
