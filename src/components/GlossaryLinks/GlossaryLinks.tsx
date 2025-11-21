@@ -7,7 +7,34 @@ type Props = {
 };
 
 export const GlossaryLinks: React.FC<Props> = ({ className = "string" }) => {
-  const alphabet = ["A", "B", "C", "D", "E", "F"];
+  const alphabet = [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+  ];
   return (
     <>
       <ul className="flex gap-4 md:ml-[160px] my-4">
