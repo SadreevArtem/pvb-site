@@ -36,8 +36,8 @@ export const GlossaryLinks: React.FC<Props> = ({ className = "string" }) => {
     "Z",
   ];
   return (
-    <>
-      <ul className="flex gap-4 md:ml-[160px] my-4">
+    <div className="container">
+      <ul className="flex flex-wrap gap-4 md:ml-[160px] my-4 ">
         {alphabet.map((item, index) => (
           <li key={index}>
             <div
@@ -49,6 +49,6 @@ export const GlossaryLinks: React.FC<Props> = ({ className = "string" }) => {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 };
