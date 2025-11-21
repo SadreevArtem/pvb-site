@@ -142,7 +142,112 @@
     "t24": "AWS (American Welding Society)",
     "p24": "A non-profit organization which sets guidelines and standards for welding and related joining technologies www.aws.org",
     "t25": "AXIAL SEAL",
-    "p25": "A seal that seals on a plane perpendicular to its axis instead of on its outside diameter (OD) or inside diameter (ID). Also termed Face Seal."
+    "p25": "A seal that seals on a plane perpendicular to its axis instead of on its outside diameter (OD) or inside diameter (ID). Also termed Face Seal.",
+
+    "t26": "BACKSEAT",
+    "p26": "A shoulder on a gate valve stem which seals against mating surfaces inside the bonnet to allow for the replacement of stem packing or stem seal, under pressure.",
+
+    "t27": "BALL",
+    "p27": "The spherical closure element (obturator) of a ball valve.",
+
+    "t28": "BALL VALVE",
+    "p28": "A valve which has a ball shaped component inside the body of the valve. The ball valve is rotated through to 90° (quarter turn) to open or close the valve. It is used to isolate or control the flow of oil or gas.",
+
+    "t29": "BAR",
+    "p29": "A metric unit of pressure. It is not a SI unit, but it is accepted for use with the SI. 1 bar = 14.504 psi = 0.1 MPa.",
+
+    "t30": "BBL",
+    "p30": "An abbreviation for \"barrel\". It is the name of several units of volume. One barrel of oil equals 42 US gallons, i.e. 158.99 liters or 34.97 UK gallons.",
+
+    "t31": "BDV (Blow Down Valve)",
+    "p31": "A small ball valve that is installed on the aboveground end of an extended drain line. This valve also serves to vent body cavity pressure in the \"block and bleed\" mode. See also Block and Bleed and Extended BDV.",
+
+    "t32": "BELLEVILLE SPRING",
+    "p32": "A conical shaped disc spring called after its inventor Julian Belleville who patented the product in 1867. It is used in some valves to push the seats against the closure element. Also termed Belleville Washer.",
+
+    "t33": "BENDING MOMENT",
+    "p33": "The mechanical load produced by a force applied to a part at right angles to its surface or axis. Its magnitude is the product of the force times the perpendicular distance to the point of restraint. Usually expressed in N-m (SI unit) or pound-feet.",
+
+    "t34": "BEVEL",
+    "p34": "An edge of a structure that is not perpendicular to the two adjacent surfaces. It is used to term weld end preparation. See End Bevel.",
+
+    "t35": "BGO (Bevel Gear Operated)",
+    "p35": "The actuation of a valve by means of a set a gear where the axes of the two shafts intersect and the tooth-bearing faces of the gears are conically shaped. The reduction ratio of this gear determines the torque ratio achieved. Mostly used on gate valves.",
+
+    "t36": "BI-DIRECTIONAL VALVE",
+    "p36": "Valve designed for blocking the fluid and can be installed with either of the flange ends in the upstream or downstream direction.",
+
+    "t37": "BLEED VALVE",
+    "p37": "Connected to the valve body cavity used to release or bleed the fluid or gas.",
+
+    "t38": "BLIND FLANGE",
+    "p38": "Flange with no center bore, used to close off completely a flanged end or outlet connection.",
+
+    "t39": "BLISTER",
+    "p39": "Raised area on the surface of a molded product caused by the pressure of internal gases. See Explosive Decompression.",
+
+    "t40": "BLOCK AND BLEED",
+    "p40": "The capability of obtaining a seal across the upstream seat of a valve when the body pressure is bled off to atmosphere through blow down valve or vent port. See Double Block and Bleed Valve.",
+
+    "t41": "BODY",
+    "p41": "The principal pressure containing part of a valve, in which the closure element and the seats are located.",
+
+    "t42": "BOLT",
+    "p42": "A fastener comprised of a screw and a nut.",
+
+    "t43": "BOLT CIRCLE",
+    "p43": "The circle on which bolt holes are located.",
+
+    "t44": "BOLTED BONNET",
+    "p44": "The top part of a valve joined to the body which guides the stem and adapts to extensions or operators.",
+
+    "t45": "BOLTED CONSTRUCTION",
+    "p45": "Describes a valve construction in which the pressure shell elements are bolted together and thus can be taken apart and repaired in the field.",
+
+    "t46": "BOLTING SETS",
+    "p46": "Bolts or studs and nuts are sometimes supplied with flanged valves to install the valve between line flanges.",
+
+    "t47": "BORE or PORT",
+    "p47": "The inside diameter of the smallest opening through a valve. The diameter of the hole in the ball of a ball valve; the diameter of the hole in the gate of a gate valve; the inside diameter of seat rings.",
+
+    "t48": "BREAKAWAY THRUST, BREAKAWAY TORQUE",
+    "p48": "Thrust or torque required for moving a valve from the fully closed position and under a pressure differential.",
+
+    "t49": "BRINELL HARDNESS",
+    "p49": "Brinell hardness is determined by forcing a hard steel or carbide sphere of a specified diameter under a specified load into the surface of a material and measuring the diameter of the indentation left after the test. The Brinell hardness number or simply the Brinell number is obtained by dividing the load used in kilograms by the actual surface area of the indentation in square millimeters. The result is a pressure measurement, but the units are rarely stated. ASTM E10 is a standard test for determining the Brinell hardness of metallic materials. Can be converted to Rockwell В or С hardness by reference to conversion tables in ASTM E140. See Rockwell Hardness Test.",
+
+    "t50": "BRITTLENESS",
+    "p50": "Tendency to crack or snap when subjected to stress or deformation.",
+
+    "t51": "BRITTLENESS POINT",
+    "p51": "Lowest temperature at which rubber materials do not exhibit brittle failure when impacted under specified conditions.",
+
+    "t52": "BRV (Body Relief Valve)",
+    "p52": "A relief valve installed on double-seated valves used in liquid service to provide for the relief of excess body pressure caused by thermal expansion.",
+
+    "t53": "BS Standard",
+    "p53": "It refers to British Standard.",
+
+    "t54": "BUBBLE TIGHT SHUT-OFF",
+    "p54": "Describes the sealing capability of a valve. During gas pressure testing of a valve in the closed position, leakage past the seat is collected and bubbled through water. To qualify as \"bubble tight\", no bubbles should be observed in a prescribed time span.",
+
+    "t55": "BULK MODULUS",
+    "p55": "The ratio of the hydrostatic pressure to the volume strain. It actually determines how much a material compresses under a given amount of external pressure. Expressed in stress units, e.g. GPa, ksi, etc. A representative value of the bulk modulus for steel is 160 GPa and for water is 2.2 GPa.",
+
+    "t56": "BURIED SERVICE",
+    "p56": "An application in which a valve is installed in lines which are buried below ground level.",
+
+    "t57": "BURST PRESSURE",
+    "p57": "That pressure at which rupture of a stressed element or pressure- containing vessel takes place. See Tensile Strength.",
+
+    "t58": "BUTTERFLY VALVE",
+    "p58": "A short face-to-face valve which has a movable obturator in the center of the flow stream and rotates 90° as the valve opens and closes.",
+
+    "t59": "BUTTWELD ENDS",
+    "p59": "The end connection of a valve suitably prepared for buttwelding to a connecting piping. Governed by ASME B16.25. See WE and End Bevel.",
+
+    "t60": "BY-PASS",
+    "p60": "A system of pipes and valves permitting the diversion of flow or pressure around the main valve."
   },
   "ContactsPage": {
     "title": "Contacts"

@@ -1,5 +1,4 @@
 import { accordeonItemsA, accordeonItemsB } from "@/app/static";
-import { AppAccordionGroup } from "@/components/AppAccordionGroup/AppAccordionGroup";
 import { AppAccordionGroupWrapper } from "@/components/AppAccordionGroupWrapper/AppAccordionGroupWrapper";
 import { BackToTopButton } from "@/components/BackToTopButton/BackToTopButton";
 import { Feedback } from "@/components/Feedback/Feedback";
@@ -51,14 +50,6 @@ const Consultation = ({
         <p id="C" className="title md: text-[48px] md:ml-[160px]">
           {"C"}
         </p>
-        {/* {Array.from({ length: 25 }, (_, i) => i + 1).map((n) => (
-          <div className="md:ml-[160px]" key={n}>
-            <p className="title">{t(`t${n}`)}</p>
-            <ul>
-              <li className="indent-8">{t(`p${n}`)}</li>
-            </ul>
-          </div>
-        ))} */}
         <div className="md:ml-[160px] mt-4">
           <ul>
             <li className="indent-8">
