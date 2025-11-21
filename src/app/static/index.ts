@@ -228,4 +228,87 @@ export const accordeonItemsB = [
     value: ["p44"],
     img: "/glossary/bonnet.png",
   },
+  {
+    id: 45,
+    name: "t45",
+    value: ["p45"],
+    img: "/glossary/boltings.png",
+  },
+  {
+    id: 46,
+    name: "t46",
+    value: ["p46"],
+  },
+  {
+    id: 47,
+    name: "t47",
+    value: ["p47"],
+  },
+  {
+    id: 48,
+    name: "t48",
+    value: ["p48"],
+  },
+  {
+    id: 49,
+    name: "t49",
+    value: ["p49"],
+  },
+  {
+    id: 50,
+    name: "t50",
+    value: ["p50"],
+  },
+  {
+    id: 51,
+    name: "t51",
+    value: ["p51"],
+  },
+  {
+    id: 52,
+    name: "t52",
+    value: ["p52"],
+  },
+  {
+    id: 53,
+    name: "t53",
+    value: ["p53"],
+  },
+  {
+    id: 54,
+    name: "t54",
+    value: ["p54"],
+  },
+  {
+    id: 55,
+    name: "t55",
+    value: ["p55"],
+  },
+  {
+    id: 56,
+    name: "t56",
+    value: ["p56"],
+  },
+  {
+    id: 57,
+    name: "t57",
+    value: ["p57"],
+  },
+  {
+    id: 58,
+    name: "t58",
+    value: ["p58"],
+    img: "/glossary/butterfly-valve.png",
+  },
+  {
+    id: 59,
+    name: "t59",
+    value: ["p59"],
+  },
+  {
+    id: 60,
+    name: "t60",
+    value: ["p60"],
+    img: "/glossary/bypass.png",
+  },
 ];

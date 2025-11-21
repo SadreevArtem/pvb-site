@@ -1,6 +1,7 @@
 import { accordeonItemsA, accordeonItemsB } from "@/app/static";
 import { AppAccordionGroup } from "@/components/AppAccordionGroup/AppAccordionGroup";
 import { AppAccordionGroupWrapper } from "@/components/AppAccordionGroupWrapper/AppAccordionGroupWrapper";
+import { BackToTopButton } from "@/components/BackToTopButton/BackToTopButton";
 import { Feedback } from "@/components/Feedback/Feedback";
 import { GlossaryLinks } from "@/components/GlossaryLinks/GlossaryLinks";
 import { useLocale, useTranslations } from "next-intl";
@@ -47,6 +48,9 @@ const Consultation = ({
         <div className="mt-8">
           <AppAccordionGroupWrapper items={accordeonItemsB} />
         </div>
+        <p id="C" className="title md: text-[48px] md:ml-[160px]">
+          {"C"}
+        </p>
         {/* {Array.from({ length: 25 }, (_, i) => i + 1).map((n) => (
           <div className="md:ml-[160px]" key={n}>
             <p className="title">{t(`t${n}`)}</p>
@@ -86,6 +90,7 @@ const Consultation = ({
       </div>
 
       <Feedback />
+      <BackToTopButton label={t("backToTop")} />
     </div>
   );
 };
