@@ -35,6 +35,7 @@ export const GlossaryLinks: React.FC<Props> = ({ className = "string" }) => {
     "Y",
     "Z",
   ];
+
   return (
     <div className="container">
       <ul className="flex flex-wrap gap-4 md:ml-[160px] my-4 ">

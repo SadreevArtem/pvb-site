@@ -312,3 +312,251 @@ export const accordeonItemsB = [
     img: "/glossary/bypass.png",
   },
 ];
+
+export const accordeonItemsC = [
+  {
+    id: 61,
+    name: "t61",
+    value: ["p61"],
+  },
+  {
+    id: 62,
+    name: "t62",
+    value: ["p62"],
+  },
+  {
+    id: 63,
+    name: "t63",
+    value: ["p63"],
+  },
+  {
+    id: 64,
+    name: "t64",
+    value: ["p64"],
+  },
+  {
+    id: 65,
+    name: "t65",
+    value: ["p65"],
+  },
+  {
+    id: 66,
+    name: "t66",
+    value: ["p66"],
+    img: "/glossary/cvb.png",
+  },
+  {
+    id: 67,
+    name: "t67",
+    value: ["p67"],
+    img: "/glossary/ce.png",
+  },
+  {
+    id: 68,
+    name: "t68",
+    value: ["p68"],
+  },
+  {
+    id: 69,
+    name: "t69",
+    value: ["p69"],
+    img: "/glossary/cfd.png",
+  },
+  {
+    id: 70,
+    name: "t70",
+    value: ["p70"],
+  },
+  {
+    id: 71,
+    name: "t71",
+    value: ["p71"],
+  },
+  {
+    id: 72,
+    name: "t72",
+    value: ["p72"],
+    img: "/glossary/sharpi.png",
+  },
+  {
+    id: 73,
+    name: "t73",
+    value: ["p73"],
+    img: "/glossary/check-valve.png",
+  },
+  {
+    id: 74,
+    name: "t74",
+    value: ["p74"],
+    img: "/glossary/check-valve-clapper-disk.png",
+  },
+  {
+    id: 75,
+    name: "t75",
+    value: ["p75"],
+    img: "/glossary/chevron-packing.png",
+  },
+  {
+    id: 76,
+    name: "t76",
+    value: ["p76"],
+  },
+  {
+    id: 77,
+    name: "t77",
+    value: ["p77"],
+    img: "/glossary/choked-flow.png",
+  },
+  {
+    id: 78,
+    name: "t78",
+    value: ["p78"],
+  },
+  {
+    id: 79,
+    name: "t79",
+    value: ["p79"],
+    img: "/glossary/clamp-connector.png",
+  },
+  {
+    id: 80,
+    name: "t80",
+    value: ["p80"],
+    img: "/glossary/clevis-pin.png",
+  },
+  {
+    id: 81,
+    name: "t81",
+    value: ["p81"],
+    img: "/glossary/closure.png",
+  },
+  {
+    id: 82,
+    name: "t82",
+    value: ["p82"],
+  },
+  {
+    id: 83,
+    name: "t83",
+    value: ["p83"],
+  },
+  {
+    id: 84,
+    name: "t84",
+    value: ["p84"],
+    img: "/glossary/compact-flange.png",
+  },
+  {
+    id: 85,
+    name: "t85",
+    value: ["p85"],
+  },
+  {
+    id: 86,
+    name: "t86",
+    value: ["p86"],
+  },
+  {
+    id: 87,
+    name: "t87",
+    value: ["p87"],
+  },
+  {
+    id: 88,
+    name: "t88",
+    value: ["p88"],
+  },
+  {
+    id: 89,
+    name: "t89",
+    value: ["p89"],
+    img: "/glossary/concentric.png",
+  },
+  {
+    id: 90,
+    name: "t90",
+    value: ["p90"],
+  },
+  {
+    id: 91,
+    name: "t91",
+    value: ["p91"],
+    img: "/glossary/control-valve.png",
+  },
+  {
+    id: 92,
+    name: "t92",
+    value: ["p92"],
+  },
+  {
+    id: 93,
+    name: "t93",
+    value: ["p93"],
+  },
+  {
+    id: 94,
+    name: "t94",
+    value: ["p94"],
+  },
+  {
+    id: 95,
+    name: "t95",
+    value: ["p95"],
+  },
+  {
+    id: 96,
+    name: "t96",
+    value: ["p96"],
+  },
+  {
+    id: 97,
+    name: "t97",
+    value: ["p97"],
+  },
+  {
+    id: 98,
+    name: "t98",
+    value: ["p98"],
+  },
+  {
+    id: 99,
+    name: "t99",
+    value: ["p99"],
+  },
+  {
+    id: 100,
+    name: "t100",
+    value: ["p100"],
+  },
+  {
+    id: 101,
+    name: "t101",
+    value: ["p101"],
+  },
+  {
+    id: 102,
+    name: "t102",
+    value: ["p102"],
+  },
+  {
+    id: 103,
+    name: "t103",
+    value: ["p103"],
+  },
+  {
+    id: 104,
+    name: "t104",
+    value: ["p104"],
+  },
+  {
+    id: 105,
+    name: "t105",
+    value: ["p105"],
+  },
+  {
+    id: 106,
+    name: "t106",
+    value: ["p106"],
+    img: "/glossary/cylinder-operator.png",
+  },
+];
