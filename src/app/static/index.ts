@@ -560,3 +560,248 @@ export const accordeonItemsC = [
     img: "/glossary/cylinder-operator.png",
   },
 ];
+
+export const accordeonItemsD = [
+  {
+    id: 107,
+    name: "t107",
+    value: ["p107"],
+  },
+  {
+    id: 108,
+    name: "t108",
+    value: ["p108"],
+  },
+  {
+    id: 109,
+    name: "t109",
+    value: ["p109"],
+  },
+  {
+    id: 110,
+    name: "t110",
+    value: ["p110"],
+  },
+  {
+    id: 111,
+    name: "t111",
+    value: ["p111"],
+    img: "/glossary/DIAPHRAGM.png",
+  },
+  {
+    id: 112,
+    name: "t112",
+    value: ["p112"],
+  },
+  {
+    id: 113,
+    name: "t113",
+    value: ["p113"],
+  },
+  {
+    id: 114,
+    name: "t114",
+    value: ["p114"],
+  },
+  {
+    id: 115,
+    name: "t115",
+    value: ["p115"],
+  },
+  {
+    id: 116,
+    name: "t116",
+    value: ["p116"],
+  },
+  {
+    id: 117,
+    name: "t117",
+    value: ["p117"],
+  },
+  {
+    id: 118,
+    name: "t118",
+    value: ["p118"],
+    img: "/glossary/dpe.png",
+  },
+  {
+    id: 119,
+    name: "t119",
+    value: ["p119"],
+  },
+  {
+    id: 120,
+    name: "t120",
+    value: ["p120"],
+  },
+  {
+    id: 121,
+    name: "t121",
+    value: ["p121"],
+  },
+  {
+    id: 122,
+    name: "t122",
+    value: ["p122"],
+  },
+  {
+    id: 123,
+    name: "t123",
+    value: ["p123"],
+  },
+  {
+    id: 124,
+    name: "t124",
+    value: ["p124"],
+  },
+  {
+    id: 125,
+    name: "t125",
+    value: ["p125"],
+  },
+  {
+    id: 126,
+    name: "t126",
+    value: ["p126"],
+    img: "/glossary/dual-seat.png",
+  },
+  {
+    id: 127,
+    name: "t127",
+    value: ["p127"],
+  },
+  {
+    id: 128,
+    name: "t128",
+    value: ["p128"],
+  },
+  {
+    id: 129,
+    name: "t129",
+    value: ["p129"],
+  },
+  {
+    id: 130,
+    name: "t130",
+    value: ["p130"],
+  },
+];
+
+export const accordeonItemsE = [
+  {
+    id: 131,
+    name: "t131",
+    value: ["p131"],
+  },
+  {
+    id: 132,
+    name: "t132",
+    value: ["p132"],
+    img: "/glossary/elbow.png",
+  },
+  {
+    id: 133,
+    name: "t133",
+    value: ["p133"],
+  },
+  {
+    id: 134,
+    name: "t134",
+    value: ["p134"],
+  },
+  {
+    id: 135,
+    name: "t135",
+    value: ["p135"],
+  },
+  {
+    id: 136,
+    name: "t136",
+    value: ["p136"],
+    img: "/glossary/fiting.png",
+  },
+  {
+    id: 137,
+    name: "t137",
+    value: ["p137"],
+    img: "/glossary/end-bevel.png",
+  },
+  {
+    id: 138,
+    name: "t138",
+    value: ["p138"],
+  },
+  {
+    id: 139,
+    name: "t139",
+    value: ["p139"],
+  },
+  {
+    id: 140,
+    name: "t140",
+    value: ["p140"],
+  },
+  {
+    id: 141,
+    name: "t141",
+    value: ["p141"],
+  },
+  {
+    id: 142,
+    name: "t142",
+    value: ["p142"],
+  },
+  {
+    id: 143,
+    name: "t143",
+    value: ["p143"],
+  },
+  {
+    id: 144,
+    name: "t144",
+    value: ["p144"],
+  },
+  {
+    id: 145,
+    name: "t145",
+    value: ["p145"],
+    img: "/glossary/egv.png",
+  },
+  {
+    id: 146,
+    name: "t146",
+    value: ["p146"],
+  },
+  {
+    id: 147,
+    name: "t147",
+    value: ["p147"],
+    img: "/glossary/aed.png",
+  },
+  {
+    id: 148,
+    name: "t148",
+    value: ["p148"],
+  },
+  {
+    id: 149,
+    name: "t149",
+    value: ["p149"],
+  },
+  {
+    id: 150,
+    name: "t150",
+    value: ["p150"],
+    img: "/glossary/EXTENSIONS.png",
+  },
+  {
+    id: 151,
+    name: "t151",
+    value: ["p151"],
+  },
+  {
+    id: 152,
+    name: "t152",
+    value: ["p152"],
+  },
+];

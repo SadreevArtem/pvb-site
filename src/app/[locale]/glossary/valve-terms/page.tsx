@@ -2,6 +2,8 @@ import {
   accordeonItemsA,
   accordeonItemsB,
   accordeonItemsC,
+  accordeonItemsD,
+  accordeonItemsE,
 } from "@/app/static";
 import { AppAccordionGroupWrapper } from "@/components/AppAccordionGroupWrapper/AppAccordionGroupWrapper";
 import { BackToTopButton } from "@/components/BackToTopButton/BackToTopButton";
@@ -56,6 +58,18 @@ const Consultation = ({
         </p>
         <div className="mt-8">
           <AppAccordionGroupWrapper items={accordeonItemsC} />
+        </div>
+        <p id="D" className="title md: text-[48px] md:ml-[160px]">
+          {"D"}
+        </p>
+        <div className="mt-8">
+          <AppAccordionGroupWrapper items={accordeonItemsD} />
+        </div>
+        <p id="E" className="title md: text-[48px] md:ml-[160px]">
+          {"E"}
+        </p>
+        <div className="mt-8">
+          <AppAccordionGroupWrapper items={accordeonItemsE} />
         </div>
         <div className="md:ml-[160px] mt-4">
           <ul>
