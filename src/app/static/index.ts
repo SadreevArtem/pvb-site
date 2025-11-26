@@ -1081,3 +1081,131 @@ export const accordeonItemsG = [
     value: ["p204"],
   },
 ];
+
+export const accordeonItemsH = [
+  {
+    id: 205,
+    name: "t205",
+    value: ["p205"],
+  },
+  {
+    id: 206,
+    name: "t206",
+    value: ["p206"],
+    img: "/glossary/HARDFACING.png",
+  },
+  {
+    id: 207,
+    name: "t207",
+    value: ["p207"],
+  },
+  {
+    id: 208,
+    name: "t208",
+    value: ["p208"],
+  },
+  {
+    id: 209,
+    name: "t209",
+    value: ["p209"],
+  },
+  {
+    id: 210,
+    name: "t210",
+    value: ["p210"],
+  },
+  {
+    id: 211,
+    name: "t211",
+    value: ["p211"],
+  },
+  {
+    id: 212,
+    name: "t212",
+    value: ["p212"],
+  },
+  {
+    id: 213,
+    name: "t213",
+    value: ["p213"],
+  },
+  {
+    id: 214,
+    name: "t214",
+    value: ["p214"],
+  },
+  {
+    id: 215,
+    name: "t215",
+    value: ["p215"],
+  },
+  {
+    id: 216,
+    name: "t216",
+    value: ["p216"],
+    img: "/glossary/HIPPS.png",
+  },
+  {
+    id: 217,
+    name: "t217",
+    value: ["p217"],
+  },
+  {
+    id: 218,
+    name: "t218",
+    value: ["p218"],
+    img: "/glossary/HIP.png",
+  },
+  {
+    id: 219,
+    name: "t219",
+    value: ["p219"],
+  },
+  {
+    id: 220,
+    name: "t220",
+    value: ["p220"],
+  },
+  {
+    id: 221,
+    name: "t221",
+    value: ["p221"],
+  },
+  {
+    id: 222,
+    name: "t222",
+    value: ["p222"],
+  },
+  {
+    id: 223,
+    name: "t223",
+    value: ["p223"],
+    img: "/glossary/HWO.png",
+  },
+  {
+    id: 224,
+    name: "t224",
+    value: ["p224"],
+  },
+  {
+    id: 225,
+    name: "t225",
+    value: ["p225"],
+    img: "/glossary/HYDRAULIC-SEATS.png",
+  },
+  {
+    id: 226,
+    name: "t226",
+    value: ["p226"],
+  },
+  {
+    id: 227,
+    name: "t227",
+    value: ["p227"],
+  },
+  {
+    id: 228,
+    name: "t228",
+    value: ["p228"],
+  },
+];
