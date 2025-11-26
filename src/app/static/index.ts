@@ -2365,3 +2365,202 @@ export const accordeonItemsT = [
     value: ["p453"],
   },
 ];
+
+export const accordeonItemsU = [
+  {
+    id: 454,
+    name: "t454",
+    value: ["p454"],
+  },
+  {
+    id: 455,
+    name: "t455",
+    value: ["p455"],
+  },
+  {
+    id: 456,
+    name: "t456",
+    value: ["p456"],
+  },
+];
+
+export const accordeonItemsV = [
+  {
+    id: 457,
+    name: "t457",
+    value: ["p457"],
+  },
+  {
+    id: 458,
+    name: "t458",
+    value: ["p458"],
+  },
+  {
+    id: 459,
+    name: "t459",
+    value: ["p459"],
+  },
+  {
+    id: 460,
+    name: "t460",
+    value: ["p460"],
+  },
+  {
+    id: 461,
+    name: "t461",
+    value: ["p461"],
+  },
+  {
+    id: 462,
+    name: "t462",
+    value: ["p462"],
+  },
+  {
+    id: 463,
+    name: "t463",
+    value: ["p463"],
+  },
+  {
+    id: 464,
+    name: "t464",
+    value: ["p464"],
+  },
+  {
+    id: 465,
+    name: "t465",
+    value: ["p465"],
+  },
+  {
+    id: 466,
+    name: "t466",
+    value: ["p466"],
+  },
+  {
+    id: 467,
+    name: "t467",
+    value: ["p467"],
+  },
+  {
+    id: 468,
+    name: "t468",
+    value: ["p468"],
+  },
+  {
+    id: 469,
+    name: "t469",
+    value: ["p469"],
+  },
+  {
+    id: 470,
+    name: "t470",
+    value: ["p470"],
+  },
+  {
+    id: 471,
+    name: "t471",
+    value: ["p471"],
+  },
+];
+
+export const accordeonItemsW = [
+  {
+    id: 472,
+    name: "t472",
+    value: ["p472"],
+  },
+  {
+    id: 473,
+    name: "t473",
+    value: ["p473"],
+  },
+  {
+    id: 474,
+    name: "t474",
+    value: ["p474"],
+  },
+  {
+    id: 475,
+    name: "t475",
+    value: ["p475"],
+  },
+  {
+    id: 476,
+    name: "t476",
+    value: ["p476"],
+  },
+  {
+    id: 477,
+    name: "t477",
+    value: ["p477"],
+  },
+  {
+    id: 478,
+    name: "t478",
+    value: ["p478"],
+  },
+  {
+    id: 479,
+    name: "t479",
+    value: ["p479"],
+  },
+  {
+    id: 480,
+    name: "t480",
+    value: ["p480"],
+  },
+  {
+    id: 481,
+    name: "t481",
+    value: ["p481"],
+  },
+  {
+    id: 482,
+    name: "t482",
+    value: ["p482"],
+  },
+  {
+    id: 483,
+    name: "t483",
+    value: ["p483"],
+  },
+  {
+    id: 484,
+    name: "t484",
+    value: ["p484"],
+  },
+  {
+    id: 485,
+    name: "t485",
+    value: ["p485"],
+  },
+  {
+    id: 486,
+    name: "t486",
+    value: ["p486"],
+  },
+];
+export const accordeonItemsX = [
+  {
+    id: 487,
+    name: "t487",
+    value: ["p487"],
+  },
+];
+
+export const accordeonItemsY = [
+  {
+    id: 488,
+    name: "t488",
+    value: ["p488"],
+  },
+  {
+    id: 489,
+    name: "t489",
+    value: ["p489"],
+  },
+  {
+    id: 490,
+    name: "t490",
+    value: ["p490"],
+  },
+];
