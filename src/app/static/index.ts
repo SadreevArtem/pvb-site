@@ -805,3 +805,279 @@ export const accordeonItemsE = [
     value: ["p152"],
   },
 ];
+
+export const accordeonItemsF = [
+  {
+    id: 153,
+    name: "t153",
+    value: ["p153"],
+  },
+  {
+    id: 154,
+    name: "t154",
+    value: ["p154"],
+  },
+  {
+    id: 155,
+    name: "t155",
+    value: ["p155"],
+  },
+  {
+    id: 156,
+    name: "t156",
+    value: ["p156"],
+  },
+  {
+    id: 157,
+    name: "t157",
+    value: ["p157"],
+  },
+  {
+    id: 158,
+    name: "t158",
+    value: ["p158"],
+  },
+  {
+    id: 159,
+    name: "t159",
+    value: ["p159"],
+  },
+  {
+    id: 160,
+    name: "t160",
+    value: ["p160"],
+    img: "/glossary/fea.png",
+  },
+  {
+    id: 161,
+    name: "t161",
+    value: ["p161"],
+  },
+  {
+    id: 162,
+    name: "t162",
+    value: ["p162"],
+  },
+  {
+    id: 163,
+    name: "t163",
+    value: ["p163"],
+  },
+  {
+    id: 164,
+    name: "t164",
+    value: ["p164"],
+  },
+  {
+    id: 165,
+    name: "t165",
+    value: ["p165"],
+  },
+  {
+    id: 166,
+    name: "t166",
+    value: ["p166"],
+  },
+  {
+    id: 167,
+    name: "t167",
+    value: ["p167"],
+    img: "/glossary/flash.png",
+  },
+  {
+    id: 168,
+    name: "t168",
+    value: ["p168"],
+  },
+  {
+    id: 169,
+    name: "t169",
+    value: ["p169"],
+  },
+  {
+    id: 170,
+    name: "t170",
+    value: ["p170"],
+  },
+  {
+    id: 171,
+    name: "t171",
+    value: ["p171"],
+    img: "/glossary/fbv.png",
+  },
+  {
+    id: 172,
+    name: "t172",
+    value: ["p172"],
+  },
+  {
+    id: 173,
+    name: "t173",
+    value: ["p173"],
+  },
+  {
+    id: 174,
+    name: "t174",
+    value: ["p174"],
+  },
+  {
+    id: 175,
+    name: "t175",
+    value: ["p175"],
+  },
+  {
+    id: 176,
+    name: "t176",
+    value: ["p176"],
+  },
+  {
+    id: 177,
+    name: "t177",
+    value: ["p177"],
+  },
+  {
+    id: 178,
+    name: "t178",
+    value: ["p178"],
+  },
+  {
+    id: 179,
+    name: "t179",
+    value: ["p179"],
+    img: "/glossary/FORGING.png",
+  },
+  {
+    id: 180,
+    name: "t180",
+    value: ["p180"],
+  },
+  {
+    id: 181,
+    name: "t181",
+    value: ["p181"],
+  },
+  {
+    id: 182,
+    name: "t182",
+    value: ["p182"],
+  },
+  {
+    id: 183,
+    name: "t183",
+    value: ["p183"],
+  },
+  {
+    id: 184,
+    name: "t184",
+    value: ["p184"],
+  },
+  {
+    id: 185,
+    name: "t185",
+    value: ["p185"],
+  },
+  {
+    id: 186,
+    name: "t186",
+    value: ["p186"],
+  },
+  {
+    id: 187,
+    name: "t187",
+    value: ["p187"],
+    img: "/glossary/fpw.png",
+  },
+  {
+    id: 188,
+    name: "t188",
+    value: ["p188"],
+    img: "/glossary/FULLY-WELDED.png",
+  },
+  {
+    id: 189,
+    name: "t189",
+    value: ["p189"],
+  },
+];
+
+export const accordeonItemsG = [
+  {
+    id: 190,
+    name: "t190",
+    value: ["p190"],
+  },
+  {
+    id: 191,
+    name: "t191",
+    value: ["p191"],
+  },
+  {
+    id: 192,
+    name: "t192",
+    value: ["p192"],
+  },
+  {
+    id: 193,
+    name: "t193",
+    value: ["p193"],
+  },
+  {
+    id: 194,
+    name: "t194",
+    value: ["p194"],
+  },
+  {
+    id: 195,
+    name: "t195",
+    value: ["p195"],
+  },
+  {
+    id: 196,
+    name: "t196",
+    value: ["p196"],
+    img: "/glossary/GATE-VALVE.png",
+  },
+  {
+    id: 197,
+    name: "t197",
+    value: ["p197"],
+  },
+  {
+    id: 198,
+    name: "t198",
+    value: ["p198"],
+  },
+  {
+    id: 199,
+    name: "t199",
+    value: ["p199"],
+    img: "/glossary/GLAND-PLATE.png",
+  },
+  {
+    id: 200,
+    name: "t200",
+    value: ["p200"],
+  },
+  {
+    id: 201,
+    name: "t201",
+    value: ["p201"],
+    img: "/glossary/GLOBE-VALVE.png",
+  },
+  {
+    id: 202,
+    name: "t202",
+    value: ["p202"],
+  },
+  {
+    id: 203,
+    name: "t203",
+    value: ["p203"],
+    img: "/glossary/GO.png",
+  },
+  {
+    id: 204,
+    name: "t204",
+    value: ["p204"],
+  },
+];
