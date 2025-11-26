@@ -1925,3 +1925,443 @@ export const accordeonItemsR = [
     value: ["p366"],
   },
 ];
+
+export const accordeonItemsS = [
+  {
+    id: 367,
+    name: "t367",
+    value: ["p367"],
+  },
+  {
+    id: 368,
+    name: "t368",
+    value: ["p368"],
+  },
+  {
+    id: 369,
+    name: "t369",
+    value: ["p369"],
+  },
+  {
+    id: 370,
+    name: "t370",
+    value: ["p370"],
+  },
+  {
+    id: 371,
+    name: "t371",
+    value: ["p371"],
+  },
+  {
+    id: 372,
+    name: "t372",
+    value: ["p372"],
+  },
+  {
+    id: 373,
+    name: "t373",
+    value: ["p373"],
+  },
+  {
+    id: 374,
+    name: "t374",
+    value: ["p374"],
+  },
+  {
+    id: 375,
+    name: "t375",
+    value: ["p375"],
+  },
+  {
+    id: 376,
+    name: "t376",
+    value: ["p376"],
+  },
+  {
+    id: 377,
+    name: "t377",
+    value: ["p377"],
+  },
+  {
+    id: 378,
+    name: "t378",
+    value: ["p378"],
+  },
+  {
+    id: 379,
+    name: "t379",
+    value: ["p379"],
+  },
+  {
+    id: 380,
+    name: "t380",
+    value: ["p380"],
+  },
+  {
+    id: 381,
+    name: "t381",
+    value: ["p381"],
+  },
+  {
+    id: 382,
+    name: "t382",
+    value: ["p382"],
+  },
+  {
+    id: 383,
+    name: "t383",
+    value: ["p383"],
+  },
+  {
+    id: 384,
+    name: "t384",
+    value: ["p384"],
+  },
+  {
+    id: 385,
+    name: "t385",
+    value: ["p385"],
+  },
+  {
+    id: 386,
+    name: "t386",
+    value: ["p386"],
+  },
+  {
+    id: 387,
+    name: "t387",
+    value: ["p387"],
+  },
+  {
+    id: 388,
+    name: "t388",
+    value: ["p388"],
+  },
+  {
+    id: 389,
+    name: "t389",
+    value: ["p389"],
+  },
+  {
+    id: 390,
+    name: "t390",
+    value: ["p390"],
+  },
+  {
+    id: 391,
+    name: "t391",
+    value: ["p391"],
+  },
+  {
+    id: 392,
+    name: "t392",
+    value: ["p392"],
+  },
+  {
+    id: 393,
+    name: "t393",
+    value: ["p393"],
+  },
+  {
+    id: 394,
+    name: "t394",
+    value: ["p394"],
+  },
+  {
+    id: 395,
+    name: "t395",
+    value: ["p395"],
+  },
+  {
+    id: 396,
+    name: "t396",
+    value: ["p396"],
+  },
+  {
+    id: 397,
+    name: "t397",
+    value: ["p397"],
+  },
+  {
+    id: 398,
+    name: "t398",
+    value: ["p398"],
+  },
+  {
+    id: 399,
+    name: "t399",
+    value: ["p399"],
+  },
+  {
+    id: 400,
+    name: "t400",
+    value: ["p400"],
+  },
+  {
+    id: 401,
+    name: "t401",
+    value: ["p401"],
+  },
+  {
+    id: 402,
+    name: "t402",
+    value: ["p402"],
+  },
+  {
+    id: 403,
+    name: "t403",
+    value: ["p403"],
+  },
+  {
+    id: 404,
+    name: "t404",
+    value: ["p404"],
+  },
+  {
+    id: 405,
+    name: "t405",
+    value: ["p405"],
+  },
+  {
+    id: 406,
+    name: "t406",
+    value: ["p406"],
+  },
+  {
+    id: 407,
+    name: "t407",
+    value: ["p407"],
+  },
+  {
+    id: 408,
+    name: "t408",
+    value: ["p408"],
+  },
+  {
+    id: 409,
+    name: "t409",
+    value: ["p409"],
+  },
+  {
+    id: 410,
+    name: "t410",
+    value: ["p410"],
+  },
+  {
+    id: 411,
+    name: "t411",
+    value: ["p411"],
+  },
+  {
+    id: 412,
+    name: "t412",
+    value: ["p412"],
+  },
+  {
+    id: 413,
+    name: "t413",
+    value: ["p413"],
+  },
+  {
+    id: 414,
+    name: "t414",
+    value: ["p414"],
+  },
+  {
+    id: 415,
+    name: "t415",
+    value: ["p415"],
+  },
+  {
+    id: 416,
+    name: "t416",
+    value: ["p416"],
+  },
+  {
+    id: 417,
+    name: "t417",
+    value: ["p417"],
+  },
+  {
+    id: 418,
+    name: "t418",
+    value: ["p418"],
+  },
+  {
+    id: 419,
+    name: "t419",
+    value: ["p419"],
+  },
+  {
+    id: 420,
+    name: "t420",
+    value: ["p420"],
+  },
+  {
+    id: 421,
+    name: "t421",
+    value: ["p421"],
+  },
+  {
+    id: 422,
+    name: "t422",
+    value: ["p422"],
+  },
+  {
+    id: 423,
+    name: "t423",
+    value: ["p423"],
+  },
+  {
+    id: 424,
+    name: "t424",
+    value: ["p424"],
+  },
+  {
+    id: 425,
+    name: "t425",
+    value: ["p425"],
+  },
+  {
+    id: 426,
+    name: "t426",
+    value: ["p426"],
+  },
+  {
+    id: 427,
+    name: "t427",
+    value: ["p427"],
+  },
+  {
+    id: 428,
+    name: "t428",
+    value: ["p428"],
+  },
+  {
+    id: 429,
+    name: "t429",
+    value: ["p429"],
+  },
+  {
+    id: 430,
+    name: "t430",
+    value: ["p430"],
+  },
+  {
+    id: 431,
+    name: "t431",
+    value: ["p431"],
+  },
+  {
+    id: 432,
+    name: "t432",
+    value: ["p432"],
+  },
+];
+export const accordeonItemsT = [
+  {
+    id: 433,
+    name: "t433",
+    value: ["p433"],
+  },
+  {
+    id: 434,
+    name: "t434",
+    value: ["p434"],
+  },
+  {
+    id: 435,
+    name: "t435",
+    value: ["p435"],
+  },
+  {
+    id: 436,
+    name: "t436",
+    value: ["p436"],
+  },
+  {
+    id: 437,
+    name: "t437",
+    value: ["p437"],
+  },
+  {
+    id: 438,
+    name: "t438",
+    value: ["p438"],
+  },
+  {
+    id: 439,
+    name: "t439",
+    value: ["p439"],
+  },
+  {
+    id: 440,
+    name: "t440",
+    value: ["p440"],
+  },
+  {
+    id: 441,
+    name: "t441",
+    value: ["p441"],
+  },
+  {
+    id: 442,
+    name: "t442",
+    value: ["p442"],
+  },
+  {
+    id: 443,
+    name: "t443",
+    value: ["p443"],
+  },
+  {
+    id: 444,
+    name: "t444",
+    value: ["p444"],
+  },
+  {
+    id: 445,
+    name: "t445",
+    value: ["p445"],
+  },
+  {
+    id: 446,
+    name: "t446",
+    value: ["p446"],
+  },
+  {
+    id: 447,
+    name: "t447",
+    value: ["p447"],
+  },
+  {
+    id: 448,
+    name: "t448",
+    value: ["p448"],
+  },
+  {
+    id: 449,
+    name: "t449",
+    value: ["p449"],
+  },
+  {
+    id: 450,
+    name: "t450",
+    value: ["p450"],
+  },
+  {
+    id: 451,
+    name: "t451",
+    value: ["p451"],
+  },
+  {
+    id: 452,
+    name: "t452",
+    value: ["p452"],
+  },
+  {
+    id: 453,
+    name: "t453",
+    value: ["p453"],
+  },
+];
