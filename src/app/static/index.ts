@@ -1209,3 +1209,158 @@ export const accordeonItemsH = [
     value: ["p228"],
   },
 ];
+
+export const accordeonItemsI = [
+  {
+    id: 229,
+    name: "t229",
+    value: ["p229"],
+  },
+  {
+    id: 230,
+    name: "t230",
+    value: ["p230"],
+  },
+  {
+    id: 231,
+    name: "t231",
+    value: ["p231"],
+  },
+  {
+    id: 232,
+    name: "t232",
+    value: ["p232"],
+  },
+  {
+    id: 233,
+    name: "t233",
+    value: ["p233"],
+  },
+  {
+    id: 234,
+    name: "t234",
+    value: ["p234"],
+  },
+  {
+    id: 235,
+    name: "t235",
+    value: ["p235"],
+  },
+  {
+    id: 236,
+    name: "t236",
+    value: ["p236"],
+  },
+  {
+    id: 237,
+    name: "t237",
+    value: ["p237"],
+  },
+  {
+    id: 238,
+    name: "t238",
+    value: ["p238"],
+  },
+  {
+    id: 239,
+    name: "t239",
+    value: ["p239"],
+  },
+  {
+    id: 240,
+    name: "t240",
+    value: ["p240"],
+    img: "/glossary/INTELLIGENT-PIG.png",
+  },
+  {
+    id: 241,
+    name: "t241",
+    value: ["p241"],
+  },
+  {
+    id: 242,
+    name: "t242",
+    value: ["p242"],
+  },
+  {
+    id: 243,
+    name: "t243",
+    value: ["p243"],
+  },
+];
+
+export const accordeonItemsK = [
+  {
+    id: 244,
+    name: "t244",
+    value: ["p244"],
+  },
+  {
+    id: 245,
+    name: "t245",
+    value: ["p245"],
+  },
+];
+export const accordeonItemsL = [
+  {
+    id: 246,
+    name: "t246",
+    value: ["p246"],
+  },
+  {
+    id: 247,
+    name: "t247",
+    value: ["p247"],
+  },
+  {
+    id: 248,
+    name: "t248",
+    value: ["p248"],
+  },
+  {
+    id: 249,
+    name: "t249",
+    value: ["p249"],
+  },
+  {
+    id: 250,
+    name: "t250",
+    value: ["p250"],
+  },
+  {
+    id: 251,
+    name: "t251",
+    value: ["p251"],
+  },
+  {
+    id: 252,
+    name: "t252",
+    value: ["p252"],
+  },
+  {
+    id: 253,
+    name: "t253",
+    value: ["p253"],
+    img: "/glossary/LIP-SEAL.png",
+  },
+  {
+    id: 254,
+    name: "t254",
+    value: ["p254"],
+  },
+  {
+    id: 255,
+    name: "t255",
+    value: ["p255"],
+  },
+  {
+    id: 256,
+    name: "t256",
+    value: ["p256"],
+  },
+  {
+    id: 257,
+    name: "t257",
+    value: ["p257"],
+  },
+];
