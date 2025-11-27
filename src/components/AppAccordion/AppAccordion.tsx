@@ -12,17 +12,20 @@ import { useTranslations } from "next-intl";
 type CommonProps = {
   title: string;
   className?: string;
+
   titleUppercase?: boolean;
 };
 
 type ControlledProps = {
   uncontrolled?: false;
   open: boolean;
+  currentTranslate: string;
   setOpen: (value: boolean) => void;
 } & CommonProps;
 
 type UncontrolledProps = {
   uncontrolled: true;
+  currentTranslate: string;
   defaultOpen?: boolean;
 } & CommonProps;
 
@@ -33,10 +36,11 @@ export const AppAccordion: React.FC<Props> = ({
   titleUppercase = false,
   className = "",
   children,
+  currentTranslate,
   ...props
 }) => {
   const controlId = useId();
-  const t = useTranslations("ValveTermsPage");
+  const t = useTranslations(currentTranslate);
   const [localOpen, setLocalOpen] = useState(
     props.uncontrolled ? props.defaultOpen : false
   );

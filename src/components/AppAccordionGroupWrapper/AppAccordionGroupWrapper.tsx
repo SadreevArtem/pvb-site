@@ -14,10 +14,11 @@ type AccordionItem = {
 
 type Props = {
   items: AccordionItem[];
+  currentTranslate: string;
 };
 
-export function AppAccordionGroupWrapper({ items }: Props) {
-  const t = useTranslations("ValveTermsPage");
+export function AppAccordionGroupWrapper({ items, currentTranslate }: Props) {
+  const t = useTranslations(currentTranslate);
   const accordionContentSlot = (item: AccordionItem) => (
     <ul className="flex flex-col">
       {item.value.map((value) => (
@@ -42,6 +43,7 @@ export function AppAccordionGroupWrapper({ items }: Props) {
   return (
     <AppAccordionGroup<AccordionItem>
       items={items}
+      currentTranslate={currentTranslate}
       accordionContentSlot={accordionContentSlot}
     />
   );

@@ -1117,6 +1117,13 @@
     "t490": "YOUNG'S MODULUS",
     "p490": "A measure of **stiffness** (modulus of elasticity, elastic modulus, or tensile modulus). Defined as the ratio, for small strains, of the **rate of change of stress with strain** ($\frac{elta igma}{elta arepsilon}$). Determined from the slope of a stress-strain curve during tensile testing."
   },
+  "ControlTermsPage": {
+    "link1": "SECTION 1 : Valve Terms & Definitions",
+    "link2": "SECTION 2 : Actuator & Control Systems Terms & Definitions",
+    "link3": "SECTION 3 : Commercial Terms",
+    "title": "SECTION 2 : Actuator & Control Systems Terms & Definitions",
+    "backToTop": "Back to top"
+  },
   "ContactsPage": {
     "title": "Contacts"
   },

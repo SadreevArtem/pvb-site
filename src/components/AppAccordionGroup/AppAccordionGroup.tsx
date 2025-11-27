@@ -7,6 +7,7 @@ type Props<T extends { id?: number; name?: string }> = {
   items: T[];
   accordionContentSlot: (item: T) => ReactNode;
   titleUppercase?: boolean;
+  currentTranslate: string;
   className?: string;
   isFirstOpen?: boolean;
   uncontrolled?: boolean;
@@ -15,6 +16,7 @@ type Props<T extends { id?: number; name?: string }> = {
 export const AppAccordionGroup = <T extends { id?: number; name?: string }>({
   items,
   accordionContentSlot,
+  currentTranslate,
   titleUppercase = false,
   className = "",
   isFirstOpen = true,
@@ -29,6 +31,7 @@ export const AppAccordionGroup = <T extends { id?: number; name?: string }>({
       {items.map((item) => (
         <AppAccordion
           key={item.id}
+          currentTranslate={currentTranslate}
           open={activeItemId === item.id}
           setOpen={() =>
             setActiveItemId(activeItemId === item.id ? null : item.id)
