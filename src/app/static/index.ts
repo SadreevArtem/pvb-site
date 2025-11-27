@@ -1410,6 +1410,7 @@ export const accordeonItemsM = [
     id: 266,
     name: "t266",
     value: ["p266"],
+    img: "/glossary/METAL-SEATED.png",
   },
   {
     id: 267,
@@ -1490,6 +1491,7 @@ export const accordeonItemsM = [
     id: 282,
     name: "t282",
     value: ["p282"],
+    img: "/glossary/mwp.png",
   },
 ];
 
@@ -1508,11 +1510,13 @@ export const accordeonItemsN = [
     id: 285,
     name: "t285",
     value: ["p285"],
+    img: "/glossary/NEEDLE-VALVE.png",
   },
   {
     id: 286,
     name: "t286",
     value: ["p286"],
+    img: "/glossary/NIPPLE.png",
   },
   {
     id: 287,
@@ -1555,6 +1559,7 @@ export const accordeonItemsO = [
     id: 294,
     name: "t294",
     value: ["p294"],
+    img: "/glossary/OPERATOR.png",
   },
   {
     id: 295,
@@ -1575,6 +1580,7 @@ export const accordeonItemsO = [
     id: 298,
     name: "t298",
     value: ["p298"],
+    img: "/glossary/OS.png",
   },
   {
     id: 299,
@@ -1588,6 +1594,7 @@ export const accordeonItemsP = [
     id: 300,
     name: "t300",
     value: ["p300"],
+    img: "/glossary/PACKING.png",
   },
   {
     id: 301,
@@ -1618,6 +1625,7 @@ export const accordeonItemsP = [
     id: 306,
     name: "t306",
     value: ["p306"],
+    img: "/glossary/PIG.png",
   },
   {
     id: 307,
@@ -1648,6 +1656,7 @@ export const accordeonItemsP = [
     id: 312,
     name: "t312",
     value: ["p312"],
+    img: "/glossary/PISTON-EFFECT.png",
   },
   {
     id: 313,
@@ -1668,6 +1677,7 @@ export const accordeonItemsP = [
     id: 316,
     name: "t316",
     value: ["p316"],
+    img: "/glossary/PLUG-VALVE.png",
   },
   {
     id: 317,
@@ -1873,11 +1883,13 @@ export const accordeonItemsR = [
     id: 356,
     name: "t356",
     value: ["p356"],
+    img: "/glossary/RISING-STEM-BALL.png",
   },
   {
     id: 357,
     name: "t357",
     value: ["p357"],
+    img: "/glossary/RISING-STEM-GATE.png",
   },
   {
     id: 358,
@@ -1918,6 +1930,7 @@ export const accordeonItemsR = [
     id: 365,
     name: "t365",
     value: ["p365"],
+    img: "/glossary/RUPTURE-DISC.png",
   },
   {
     id: 366,
@@ -1931,6 +1944,7 @@ export const accordeonItemsS = [
     id: 367,
     name: "t367",
     value: ["p367"],
+    img: "/glossary/SAFETY-RELIEF.png",
   },
   {
     id: 368,
@@ -1956,6 +1970,7 @@ export const accordeonItemsS = [
     id: 372,
     name: "t372",
     value: ["p372"],
+    img: "/glossary/SCOTCH-YOKE.png",
   },
   {
     id: 373,
@@ -1986,6 +2001,7 @@ export const accordeonItemsS = [
     id: 378,
     name: "t378",
     value: ["p378"],
+    img: "/glossary/SEAT.png",
   },
   {
     id: 379,
@@ -2031,6 +2047,7 @@ export const accordeonItemsS = [
     id: 387,
     name: "t387",
     value: ["p387"],
+    img: "/glossary/SIDE-ENTRY.png",
   },
   {
     id: 388,
@@ -2071,6 +2088,7 @@ export const accordeonItemsS = [
     id: 395,
     name: "t395",
     value: ["p395"],
+    img: "/glossary/SOCKET-END.png",
   },
   {
     id: 396,
@@ -2156,6 +2174,7 @@ export const accordeonItemsS = [
     id: 412,
     name: "t412",
     value: ["p412"],
+    img: "/glossary/STEM-INDICATOR.png",
   },
   {
     id: 413,
@@ -2166,6 +2185,7 @@ export const accordeonItemsS = [
     id: 414,
     name: "t414",
     value: ["p414"],
+    img: "/glossary/STOP-COLLAR.png",
   },
   {
     id: 415,
@@ -2191,6 +2211,7 @@ export const accordeonItemsS = [
     id: 419,
     name: "t419",
     value: ["p419"],
+    img: "/glossary/STUD.png",
   },
   {
     id: 420,
@@ -2263,6 +2284,7 @@ export const accordeonItemsT = [
     id: 433,
     name: "t433",
     value: ["p433"],
+    img: "/glossary/TEE-PIECE.png",
   },
   {
     id: 434,
@@ -2303,6 +2325,7 @@ export const accordeonItemsT = [
     id: 441,
     name: "t441",
     value: ["p441"],
+    img: "/glossary/TOP-ENTRY.png",
   },
   {
     id: 442,
@@ -2348,6 +2371,7 @@ export const accordeonItemsT = [
     id: 450,
     name: "t450",
     value: ["p450"],
+    img: "/glossary/TRUNNION.png",
   },
   {
     id: 451,
@@ -2419,6 +2443,7 @@ export const accordeonItemsV = [
     id: 463,
     name: "t463",
     value: ["p463"],
+    img: "/glossary/VENA-CONTRACTA.png",
   },
   {
     id: 464,
@@ -2477,6 +2502,7 @@ export const accordeonItemsW = [
     id: 474,
     name: "t474",
     value: ["p474"],
+    img: "/glossary/WE.png",
   },
   {
     id: 475,
@@ -2512,6 +2538,7 @@ export const accordeonItemsW = [
     id: 481,
     name: "t481",
     value: ["p481"],
+    img: "/glossary/WELD-REDUCERS.png",
   },
   {
     id: 482,
