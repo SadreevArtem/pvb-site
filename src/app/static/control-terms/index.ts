@@ -289,3 +289,344 @@ export const accordeonItemsH = [
     value: ["p53"],
   },
 ];
+
+export const accordeonItemsI = [
+  {
+    id: 54,
+    name: "t54",
+    value: ["p54"],
+  },
+  {
+    id: 55,
+    name: "t55",
+    value: ["p55"],
+  },
+  {
+    id: 56,
+    name: "t56",
+    value: ["p56"],
+  },
+  {
+    id: 57,
+    name: "t57",
+    value: ["p57"],
+  },
+  {
+    id: 58,
+    name: "t58",
+    value: ["p58"],
+  },
+  {
+    id: 59,
+    name: "t59",
+    value: ["p59"],
+  },
+];
+export const accordeonItemsJ = [
+  {
+    id: 60,
+    name: "t60",
+    value: ["p60"],
+  },
+];
+export const accordeonItemsK = [
+  {
+    id: 61,
+    name: "t61",
+    value: ["p61"],
+  },
+];
+
+export const accordeonItemsL = [
+  {
+    id: 62,
+    name: "t62",
+    value: ["p62"],
+  },
+  {
+    id: 63,
+    name: "t63",
+    value: ["p63"],
+  },
+  {
+    id: 64,
+    name: "t64",
+    value: ["p64"],
+    img: "/glossary/LINEAR-ACTUATOR.png",
+  },
+  {
+    id: 65,
+    name: "t65",
+    value: ["p65"],
+  },
+  {
+    id: 66,
+    name: "t66",
+    value: ["p66"],
+  },
+];
+
+export const accordeonItemsM = [
+  {
+    id: 67,
+    name: "t67",
+    value: ["p67"],
+  },
+  {
+    id: 68,
+    name: "t68",
+    value: ["p68"],
+  },
+  {
+    id: 69,
+    name: "t69",
+    value: ["p69"],
+  },
+  {
+    id: 70,
+    name: "t70",
+    value: ["p70"],
+  },
+];
+export const accordeonItemsN = [
+  {
+    id: 71,
+    name: "t71",
+    value: ["p71"],
+  },
+  {
+    id: 72,
+    name: "t72",
+    value: ["p72"],
+  },
+  {
+    id: 73,
+    name: "t73",
+    value: ["p73"],
+  },
+];
+export const accordeonItemsO = [
+  {
+    id: 74,
+    name: "t74",
+    value: ["p74"],
+  },
+];
+
+export const accordeonItemsP = [
+  {
+    id: 75,
+    name: "t75",
+    value: ["p75"],
+  },
+  {
+    id: 76,
+    name: "t76",
+    value: ["p76"],
+  },
+  {
+    id: 77,
+    name: "t77",
+    value: ["p77"],
+  },
+  {
+    id: 78,
+    name: "t78",
+    value: ["p78"],
+  },
+  {
+    id: 79,
+    name: "t79",
+    value: ["p79"],
+  },
+  {
+    id: 80,
+    name: "t80",
+    value: ["p80"],
+  },
+  {
+    id: 81,
+    name: "t81",
+    value: ["p81"],
+  },
+  {
+    id: 82,
+    name: "t82",
+    value: ["p82"],
+  },
+  {
+    id: 83,
+    name: "t83",
+    value: ["p83"],
+  },
+  {
+    id: 84,
+    name: "t84",
+    value: ["p84"],
+    img: "/glossary/POSITIONAL-CONTROL.png",
+  },
+  {
+    id: 85,
+    name: "t85",
+    value: ["p85"],
+  },
+  {
+    id: 86,
+    name: "t86",
+    value: ["p86"],
+  },
+  {
+    id: 87,
+    name: "t87",
+    value: ["p87"],
+  },
+  {
+    id: 88,
+    name: "t88",
+    value: ["p88"],
+  },
+  {
+    id: 89,
+    name: "t89",
+    value: ["p89"],
+  },
+];
+export const accordeonItemsQ = [
+  {
+    id: 90,
+    name: "t90",
+    value: ["p90"],
+    img: "/glossary/QEV.png",
+  },
+];
+export const accordeonItemsR = [
+  {
+    id: 91,
+    name: "t91",
+    value: ["p91"],
+  },
+  {
+    id: 92,
+    name: "t92",
+    value: ["p92"],
+  },
+  {
+    id: 93,
+    name: "t93",
+    value: ["p93"],
+  },
+  {
+    id: 94,
+    name: "t94",
+    value: ["p94"],
+  },
+];
+export const accordeonItemsS = [
+  {
+    id: 95,
+    name: "t95",
+    value: ["p95"],
+  },
+  {
+    id: 96,
+    name: "t96",
+    value: ["p96"],
+    img: "/glossary/SCOTCH-YOKE-2.png",
+  },
+  {
+    id: 97,
+    name: "t97",
+    value: ["p97"],
+  },
+  {
+    id: 98,
+    name: "t98",
+    value: ["p98"],
+  },
+  {
+    id: 99,
+    name: "t99",
+    value: ["p99"],
+  },
+  {
+    id: 100,
+    name: "t100",
+    value: ["p100"],
+  },
+  {
+    id: 101,
+    name: "t101",
+    value: ["p101"],
+  },
+  {
+    id: 102,
+    name: "t102",
+    value: ["p102"],
+  },
+  {
+    id: 103,
+    name: "t103",
+    value: ["p103"],
+  },
+  {
+    id: 104,
+    name: "t104",
+    value: ["p104"],
+    img: "/glossary/SOLENOID.png",
+  },
+  {
+    id: 105,
+    name: "t105",
+    value: ["p105"],
+  },
+  {
+    id: 106,
+    name: "t106",
+    value: ["p106"],
+  },
+  {
+    id: 107,
+    name: "t107",
+    value: ["p107"],
+    img: "/glossary/SPRING-RETURN.png",
+  },
+  {
+    id: 108,
+    name: "t108",
+    value: ["p108"],
+  },
+];
+export const accordeonItemsT = [
+  {
+    id: 109,
+    name: "t109",
+    value: ["p109"],
+  },
+  {
+    id: 110,
+    name: "t110",
+    value: ["p110"],
+  },
+  {
+    id: 111,
+    name: "t111",
+    value: ["p111"],
+  },
+  {
+    id: 112,
+    name: "t112",
+    value: ["p112"],
+  },
+  {
+    id: 113,
+    name: "t113",
+    value: ["p113"],
+  },
+];
+export const accordeonItemsV = [
+  {
+    id: 114,
+    name: "t114",
+    value: ["p114"],
+  },
+];

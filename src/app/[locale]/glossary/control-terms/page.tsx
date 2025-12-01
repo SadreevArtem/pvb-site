@@ -7,8 +7,20 @@ import {
   accordeonItemsF,
   accordeonItemsG,
   accordeonItemsH,
+  accordeonItemsI,
+  accordeonItemsJ,
+  accordeonItemsK,
+  accordeonItemsL,
+  accordeonItemsM,
+  accordeonItemsN,
+  accordeonItemsO,
+  accordeonItemsP,
+  accordeonItemsQ,
+  accordeonItemsR,
+  accordeonItemsS,
+  accordeonItemsT,
+  accordeonItemsV,
 } from "@/app/static/control-terms";
-
 import { AppAccordionGroupWrapper } from "@/components/AppAccordionGroupWrapper/AppAccordionGroupWrapper";
 import { BackToTopButton } from "@/components/BackToTopButton/BackToTopButton";
 import { Feedback } from "@/components/Feedback/Feedback";
@@ -117,107 +129,127 @@ const ControlTerms = ({
             items={accordeonItemsH}
           />
         </div>
-        {/* 
-        
-        
-        
-        
+
         <p id="I" className="title md: text-[48px] md:ml-[160px]">
           {"I"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsI} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsI}
+          />
         </div>
+
+        <p id="J" className="title md: text-[48px] md:ml-[160px]">
+          {"J"}
+        </p>
+        <div className="mt-8">
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsJ}
+          />
+        </div>
+
         <p id="K" className="title md: text-[48px] md:ml-[160px]">
           {"K"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsK} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsK}
+          />
         </div>
         <p id="L" className="title md: text-[48px] md:ml-[160px]">
           {"L"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsL} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsL}
+          />
         </div>
         <p id="M" className="title md: text-[48px] md:ml-[160px]">
           {"M"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsM} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsM}
+          />
         </div>
         <p id="N" className="title md: text-[48px] md:ml-[160px]">
           {"N"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsN} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsN}
+          />
         </div>
         <p id="O" className="title md: text-[48px] md:ml-[160px]">
           {"O"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsO} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsO}
+          />
         </div>
+
         <p id="P" className="title md: text-[48px] md:ml-[160px]">
           {"P"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsP} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsP}
+          />
         </div>
         <p id="Q" className="title md: text-[48px] md:ml-[160px]">
           {"Q"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsQ} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsQ}
+          />
         </div>
         <p id="R" className="title md: text-[48px] md:ml-[160px]">
           {"R"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsQ} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsR}
+          />
         </div>
         <p id="S" className="title md: text-[48px] md:ml-[160px]">
           {"S"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsS} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsS}
+          />
         </div>
         <p id="T" className="title md: text-[48px] md:ml-[160px]">
           {"T"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsT} />
-        </div>
-        <p id="U" className="title md: text-[48px] md:ml-[160px]">
-          {"U"}
-        </p>
-        <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsU} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsT}
+          />
         </div>
         <p id="V" className="title md: text-[48px] md:ml-[160px]">
           {"V"}
         </p>
         <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsV} />
+          <AppAccordionGroupWrapper
+            currentTranslate="ControlTermsPage"
+            items={accordeonItemsV}
+          />
         </div>
-        <p id="W" className="title md: text-[48px] md:ml-[160px]">
-          {"W"}
-        </p>
-        <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsW} />
-        </div>
-        <p id="X" className="title md: text-[48px] md:ml-[160px]">
-          {"X"}
-        </p>
-        <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsX} />
-        </div>
-        <p id="Y" className="title md: text-[48px] md:ml-[160px]">
-          {"Y"}
-        </p>
-        <div className="mt-8">
-          <AppAccordionGroupWrapper items={accordeonItemsY} />
-        </div> */}
 
         <div className="md:ml-[160px] mt-4">
           <ul>
