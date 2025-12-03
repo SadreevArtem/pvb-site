@@ -27,11 +27,18 @@ import { AppAccordionGroupWrapper } from "@/components/AppAccordionGroupWrapper/
 import { BackToTopButton } from "@/components/BackToTopButton/BackToTopButton";
 import { Feedback } from "@/components/Feedback/Feedback";
 import { GlossaryLinks } from "@/components/GlossaryLinks/GlossaryLinks";
+import { Metadata } from "next";
 import { useLocale, useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Клапаны: термины и определения | Курсы по запорной арматуре",
+  description:
+    "Раздел 1: Термины и определения клапанов. Изучайте ключевые понятия и названия элементов запорной арматуры для профессионалов отрасли.",
+};
 
 const Consultation = ({
   params: { locale },

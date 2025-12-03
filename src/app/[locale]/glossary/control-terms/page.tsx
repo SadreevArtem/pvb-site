@@ -25,11 +25,19 @@ import { AppAccordionGroupWrapper } from "@/components/AppAccordionGroupWrapper/
 import { BackToTopButton } from "@/components/BackToTopButton/BackToTopButton";
 import { Feedback } from "@/components/Feedback/Feedback";
 import { GlossaryLinks } from "@/components/GlossaryLinks/GlossaryLinks";
+import { Metadata } from "next";
 import { useLocale, useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+export const metadata: Metadata = {
+  title:
+    "Термины и определения приводов и систем управления | Запорная арматура",
+  description:
+    "Раздел 2: Термины и определения приводов и систем управления. Изучайте ключевые понятия и устройства для работы с запорной арматурой.",
+};
 
 const ControlTerms = ({
   params: { locale },

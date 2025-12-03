@@ -1,17 +1,19 @@
-import { Feedback } from '@/components/Feedback/Feedback';
-import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
-import Image from 'next/image';
-import React from 'react'
+import { Feedback } from "@/components/Feedback/Feedback";
+import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
+import Image from "next/image";
+import { Metadata } from "next";
+import React from "react";
 
- const Education = (
-  {
-    params: { locale },
-  }: {
-    params: { locale: string };
-  }) =>{
-    unstable_setRequestLocale(locale);
-    const t = useTranslations("EducationPage")
+export const metadata: Metadata = {
+  title: "Курсы и обучение работе с запорной арматурой",
+  description:
+    "Обучение работе с запорной арматурой: курсы, инструкции и практические занятия для специалистов промышленной сферы.",
+};
+
+const Education = ({ params: { locale } }: { params: { locale: string } }) => {
+  unstable_setRequestLocale(locale);
+  const t = useTranslations("EducationPage");
   return (
     <div className="min-h-[50vh] md:mt-[100px] mt-[86px] bg-white">
       <div className="h-[140px] w-full relative">
@@ -29,8 +31,11 @@ import React from 'react'
         </h1>
       </div>
       <div className="container mb-8 text-[18px] text-grayText">
-        <div className='md:ml-[160px]'>
-          <p className='title'>У нас вы можете приобрести курсы по обучению по следующим направлениям: </p>
+        <div className="md:ml-[160px]">
+          <p className="title">
+            У нас вы можете приобрести курсы по обучению по следующим
+            направлениям:{" "}
+          </p>
           <ul>
             <li>- Проверка сосудов высокого давления</li>
             <li>- Запорная арматура основы </li>
@@ -45,8 +50,7 @@ import React from 'react'
 
       <Feedback />
     </div>
-  )
-}
-
+  );
+};
 
 export default Education;
