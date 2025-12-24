@@ -2,7 +2,7 @@ import { Feedback } from '@/components/Feedback/Feedback';
 import { NEWS } from '@/components/NewsBlock/static';
 import { NewsCard } from '@/components/NewsCard/NewsCard';
 import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import React from 'react'
 
@@ -14,7 +14,7 @@ import React from 'react'
   }: {
     params: { locale: string };
   }) =>{
-    unstable_setRequestLocale(locale);
+    setRequestLocale(locale);
     const t = useTranslations("NewsPage")
   return (
     <div className="min-h-[50vh] md:mt-[100px] mt-[86px] bg-white">

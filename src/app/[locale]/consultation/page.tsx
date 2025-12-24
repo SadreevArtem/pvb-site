@@ -1,6 +1,6 @@
 import { Feedback } from '@/components/Feedback/Feedback';
 import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import React from 'react'
 
@@ -10,7 +10,7 @@ import React from 'react'
   }: {
     params: { locale: string };
   }) =>{
-    unstable_setRequestLocale(locale);
+    setRequestLocale(locale);
 
     const t = useTranslations("ConsultationPage")
   return (

@@ -1,25 +1,20 @@
-import { AboutPageTabs } from '@/components/AboutPageTabs/AboutPageTabs';
-import { Feedback } from '@/components/Feedback/Feedback';
-import { Metadata } from 'next';
-import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
-import Image from 'next/image';
-import React from 'react'
+import { AboutPageTabs } from "@/components/AboutPageTabs/AboutPageTabs";
+import { Feedback } from "@/components/Feedback/Feedback";
+import { Metadata } from "next";
+import { useTranslations } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
+import Image from "next/image";
+import React from "react";
 
 export const metadata: Metadata = {
   title: "О компании",
   description: "site pvb",
 };
 
- const About = (
-  {
-    params: { locale },
-  }: {
-    params: { locale: string };
-  }) =>{
-    unstable_setRequestLocale(locale);
- 
-    const t = useTranslations("AboutPage")
+const About = ({ params: { locale } }: { params: { locale: string } }) => {
+  setRequestLocale(locale);
+
+  const t = useTranslations("AboutPage");
   return (
     <div className="min-h-[50vh] md:mt-[100px] mt-[86px] bg-white">
       <div className="h-[140px] w-full relative">
@@ -40,7 +35,6 @@ export const metadata: Metadata = {
       <Feedback />
     </div>
   );
-}
-
+};
 
 export default About;

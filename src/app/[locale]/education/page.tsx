@@ -1,6 +1,6 @@
 import { Feedback } from "@/components/Feedback/Feedback";
 import { useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { Metadata } from "next";
 import React from "react";
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const Education = ({ params: { locale } }: { params: { locale: string } }) => {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const t = useTranslations("EducationPage");
   return (
     <div className="min-h-[50vh] md:mt-[100px] mt-[86px] bg-white">

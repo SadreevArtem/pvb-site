@@ -4,7 +4,7 @@ import { EducationBlock } from "@/components/EducationBlock/EducationBlock";
 import { Feedback } from "@/components/Feedback/Feedback";
 import { NewsBlock } from "@/components/NewsBlock/NewsBlock";
 import { Metadata } from "next";
-import { unstable_setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "PVB",
@@ -16,7 +16,7 @@ export default function Home({
 }: {
   params: { locale: string };
 }) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   return (
     <main className="min-h-screen">
       <Banner images={[{ url: "/banner3.png" }, { url: "/banner.png" }]} locale={locale} />

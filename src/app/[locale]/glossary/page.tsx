@@ -1,6 +1,6 @@
 import { Feedback } from "@/components/Feedback/Feedback";
 import { useLocale, useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -10,7 +10,7 @@ const Consultation = ({
 }: {
   params: { locale: string };
 }) => {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const localActive = useLocale();
   const t = useTranslations("GlossaryPage");
   return (
