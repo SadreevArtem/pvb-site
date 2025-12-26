@@ -6,10 +6,10 @@ import { NewsBlock } from "@/components/NewsBlock/NewsBlock";
 import { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "PVB",
-  description: "site pvb",
-};
+// export const metadata: Metadata = {
+//   title: "PVB",
+//   description: "site pvb",
+// };
 
 export default function Home({
   params: { locale },
@@ -19,10 +19,13 @@ export default function Home({
   setRequestLocale(locale);
   return (
     <main className="min-h-screen">
-      <Banner images={[{ url: "/banner3.png" }, { url: "/banner.png" }]} locale={locale} />
-      <AboutBlock locale={locale}/>
-      <NewsBlock locale={locale}/>
-      <EducationBlock locale={locale}/>
+      <Banner
+        images={[{ url: "/banner3.png" }, { url: "/banner.png" }]}
+        locale={locale}
+      />
+      <AboutBlock locale={locale} />
+      <NewsBlock locale={locale} />
+      <EducationBlock locale={locale} />
       <Feedback />
     </main>
   );
