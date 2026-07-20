@@ -12,6 +12,8 @@ type Props = {
   onOpen: () => void;
   onClose: () => void;
   className?: string;
+  openLabel: string;
+  closeLabel: string;
 };
 
 export const Hamburger: React.FC<Props> = ({
@@ -19,13 +21,21 @@ export const Hamburger: React.FC<Props> = ({
   active,
   onOpen,
   onClose,
+  openLabel,
+  closeLabel,
   className = "string"
 }) => {
   const onToggle = () => (active ? onClose() : onOpen());
 
   return (
     <>
-      <button onClick={onToggle} className="flex">
+      <button
+        type="button"
+        onClick={onToggle}
+        className="flex"
+        aria-label={active ? closeLabel : openLabel}
+        aria-expanded={active}
+      >
         <div className={clsx("flex flex-col gap-1 ", {hidden: active})}>
           <div
             className={clsx("bg-primary w-[25px] h-[3px]")}

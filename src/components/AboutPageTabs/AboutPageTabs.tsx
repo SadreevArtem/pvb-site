@@ -3,26 +3,26 @@ import React, { useState } from 'react'
 import { Tabs } from './components/Tabs/Tabs';
 import clsx from 'clsx';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
-const AboutContent: {
-  [key: string]: string;
-} = {
-  Overview:
-    "Наша команда помогает разобраться в области производства и поставок запорной арматуры со всего мира. В независимости от опыта работы вашей компании, в кооперации с нами мы сможем усилить те или иные стратегии вашего бизнеса, наладить цифровые сервисы в области качества и обучить ваш персонал основам мира клапанов.",
-  Experience:
-    "Наша команда более 15 лет профессионально занимается производством, поставкой, разработкой констркуций запорной арматуры по всему миру. Мы прекрасно разбираемся кто, как и из чего собирает клапаны не только в Китае, Индии или ЕС, но и находимся в постоянном контакте с партнерами из США, Бразилии, ЮАР и Канады. Мы постоянно посещаем все мировые выставки, посвященные запорной арматуре, и пытаемся постоянно быть в курсе, где какой завод закрывается, продается или кто начал вместо собственного производства заниматься реэкспортом. Мы ваш ключ к знаниям, накопленным годами, все, чем мы обладаем, это наш опыт в данной сфере. Мы прошли путь от поставок запорной арматуры по всему миру в разные страны, до собственных запатентованных разработок и производства. Рынок запорной арматуры очень динамичен и ежегодно появляется новые заводы и новые разработки, заводы поглощается мировыми гигантами и наоборот. Благодаря нам вы сможете обезопасить свою компанию от излишних трат или полной потери денег. Вы сможете сделать свой персонал высококвалифицированным и профессиональным, благодаря нам ваши сотрудники будут отвечать на любые вопросы касаемо запорной арматуры, а ваш отдел снабжения перестанет покупать продукцию не отвечающую вашим требованиям. ",
-  Contacts:
-    "© 2024 ИП Бондаренко В. В. \nИНН 503212020713 \nE-mail: info@ppvb.pro",
-};
+const ABOUT_TABS = ["Overview", "Experience", "Contacts"] as const;
 
 export const AboutPageTabs = () => {
-    const [tab, setTab]= useState<string>("Overview");
+  const t = useTranslations("AboutPage");
+  const [tab, setTab]= useState<string>("Overview");
+
+  const contentKey = {
+    Overview: "overviewText",
+    Experience: "experienceText",
+    Contacts: "contactsText",
+  }[tab] as "overviewText" | "experienceText" | "contactsText";
+
   return (
     <div className="container flex gap-8 mt-8 flex-col md:flex-row text-[#333738] pb-12">
       <Tabs
         currentTab={tab}
         setTab={setTab}
-        categories={Object.keys(AboutContent)}
+        categories={[...ABOUT_TABS]}
         pageName="AboutPage"
       />
       <div className='max-lg:flex flex-col gap-8'>
@@ -34,7 +34,7 @@ export const AboutPageTabs = () => {
             "whitespace-pre !indent-0": tab === "Contacts",
           })}
         >
-          {AboutContent[tab]}
+          {t(contentKey)}
         </p>
       </div>
     </div>

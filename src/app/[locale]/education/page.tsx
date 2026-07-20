@@ -5,11 +5,17 @@ import Image from "next/image";
 import { Metadata } from "next";
 import React from "react";
 
-export const metadata: Metadata = {
-  title: "Курсы и обучение работе с запорной арматурой",
-  description:
-    "Обучение работе с запорной арматурой: курсы, инструкции и практические занятия для специалистов промышленной сферы.",
-};
+export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
+  return locale === "ru"
+    ? {
+        title: "Курсы и обучение работе с запорной арматурой",
+        description: "Курсы и практическое обучение для специалистов по промышленной арматуре.",
+      }
+    : {
+        title: "Industrial valve courses and training",
+        description: "Professional courses and practical training for industrial valve specialists.",
+      };
+}
 
 const Education = ({ params: { locale } }: { params: { locale: string } }) => {
   setRequestLocale(locale);
@@ -26,24 +32,19 @@ const Education = ({ params: { locale } }: { params: { locale: string } }) => {
         />
       </div>
       <div className="container mt-6">
-        <h1 className="md:text-[72px] md:ml-[260px] text-[36px] text-primary font-bold">
+        <h1 className="page-title page-title-offset">
           {t("title")}
         </h1>
       </div>
       <div className="container mb-8 text-[18px] text-grayText">
         <div className="md:ml-[160px]">
           <p className="title">
-            У нас вы можете приобрести курсы по обучению по следующим
-            направлениям:{" "}
+            {t("description")}
           </p>
           <ul>
-            <li>- Проверка сосудов высокого давления</li>
-            <li>- Запорная арматура основы </li>
-            <li>- Шаровые краны </li>
-            <li>- Инспекция поврежденных механизмов </li>
-            <li>- Системы сброса давления </li>
-            <li>- Стандарты ASTM </li>
-            <li>- Стандарты API </li>
+            {Array.from({ length: 7 }, (_, index) => (
+              <li key={index}>— {t(`course${index + 1}`)}</li>
+            ))}
           </ul>
         </div>
       </div>

@@ -28,12 +28,12 @@ import React from 'react'
       />
     </div>
     <div className="container mt-6">
-      <h1 className="md:text-[72px] md:ml-[260px] text-[36px] text-primary font-bold">
+      <h1 className="page-title page-title-offset">
         {t("title")}
       </h1>
     </div>
     <div className="container my-8 text-[18px] text-grayText grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
-     {NEWS.map((news) => <NewsCard key={news.name} item={news} locale={locale}/>)}
+     {NEWS.map((news) => <NewsCard key={news.name} item={news} locale={locale} readLabel={t("read")}/>)}
     </div>
 
     <Feedback />

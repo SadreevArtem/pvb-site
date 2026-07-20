@@ -6,7 +6,10 @@
     "consultation": "Consultation",
     "education": "Education",
     "contacts": "Contacts",
-    "glossary": "Glossary"
+    "glossary": "Glossary",
+    "switchLanguage": "Switch language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "HomePageBanner": {
     "title": "PVB",
@@ -16,7 +19,8 @@
   "AboutBlock": {
     "title": "About PVB",
     "text": "Our company helps you navigate the production and supply of valves from around the world. Regardless of your company's experience, by partnering with us, we can strengthen various business strategies, streamline digital quality services, and train your staff in the fundamentals of the valve industry.",
-    "button": "READ MORE"
+    "button": "READ MORE",
+    "imageAlt": "Industrial valve"
   },
   "NewsBlock": {
     "titleMain": "News",
@@ -28,7 +32,7 @@
     "date2": "4-7 November 2024 in Abu Dhabi",
 
     "title3": "Major order for British valve manufacturer",
-    "date3": "",
+    "date3": "15 June 2024",
     "button": "LEARN MORE",
     "newsLink": "SEE ALL NEWS"
   },
@@ -67,6 +71,8 @@
     "button": "Got it"
   },
   "Footer": {
+    "owner": "© 2026 Individual Entrepreneur V. V. Bondarenko",
+    "taxId": "Tax ID 503212020713",
     "link1": "Consultation",
     "consultationOne": "Administrative Activities of the Organization",
     "consultationTwo": "Valve Consultation",
@@ -75,17 +81,27 @@
     "link2": "Education",
     "educationOne": "Valves",
     "educationTwo": "Safety in Production",
-    "link3": "Soft",
-    "linkPolicy": "Privacy рolicy"
+    "link3": "Software",
+    "linkPolicy": "Privacy policy"
   },
   "AboutPage": {
-    "title": "About API",
+    "title": "About us",
     "Overview": "Overview",
     "Experience": "Experience",
-    "Contacts": "Contacts"
+    "Contacts": "Contacts",
+    "overviewText": "Our team helps companies navigate the global production and supply of industrial valves. Whatever your company's level of experience, we can strengthen your business strategy, introduce digital quality services, and train your staff in the fundamentals of valve engineering.",
+    "experienceText": "For more than 15 years, our team has worked professionally in the production, supply, and design of industrial valves worldwide. We understand the strengths of manufacturers in China, India, and the EU, and maintain close relationships with partners in the United States, Brazil, South Africa, and Canada. We regularly attend major industry exhibitions and monitor changes across the market. Our experience ranges from international valve supply to patented in-house developments and production. We help clients reduce procurement risks, improve staff expertise, and ensure that purchased products meet their technical requirements.",
+    "contactsText": "© 2024 Individual Entrepreneur V. V. Bondarenko\nTax ID: 503212020713\nE-mail: info@ppvb.pro"
   },
   "ConsultationPage": {
-    "title": "Consultation"
+    "title": "Consulting",
+    "description": "Our team provides professional consulting services in the following areas:",
+    "service1": "70.22 — Business and management consulting",
+    "service2": "63.99.1 — Consulting and information services",
+    "service3": "66.19 — Other activities auxiliary to financial services, excluding insurance and pension funding",
+    "service4": "66.19.4 — Financial intermediation consulting services",
+    "service5": "82.11 — Combined office administrative service activities",
+    "service6": "82.99 — Other business support service activities"
   },
   "GlossaryPage": {
     "title": "Glossary",
@@ -329,7 +345,7 @@
     "t94": "CORROSION RESISTANT ALLOY",
     "p94": "Nonferrous-based alloy in which any one of the sum of the specific amount of the elements titanium, nickel, cobalt, chromium, and molybdenum exceeds 50% in weight.",
     "t95": "COULISSE",
-    "p95": "A type of gate valve using runners or slides as a guiding mechanism operating in high temperature applications i.e. $+300^{\\circ}C$.",
+    "p95": "A type of gate valve using runners or slides as a guiding mechanism operating in high-temperature applications, for example +300°C.",
     "t96": "CRACKING",
     "p96": "A chemical process whereby complex organic molecules such as heavy hydrocarbons are broken down into simpler molecules by the breaking of carbon-carbon bonds.",
     "t97": "CREEP",
@@ -339,11 +355,11 @@
     "t99": "CRITICAL FLOW",
     "p99": "See Chocked flow.",
     "t100": "CRYOGENIC TEMPERATURE",
-    "p100": "Any temperature below about $-196^{\\circ}C$.",
+    "p100": "Any temperature below approximately -196°C.",
     "t101": "CRYOGENIC VALVE",
-    "p101": "A valve capable of functioning at cryogenic temperatures below i.e. $-196^{\\circ}C$ commonly used in LNG plants.",
+    "p101": "A valve capable of functioning at cryogenic temperatures below -196°C, commonly used in LNG plants.",
     "t102": "CV",
-    "p102": "The volumetric flow rate of water, in US gallons per minute at $15.6^{\\circ}C$ ($60^{\\circ}F$) passing through a valve and resulting in a pressure drop of 1 psi. See also Flow Coefficient Kv.",
+    "p102": "The volumetric flow rate of water, in US gallons per minute at 15.6°C (60°F), passing through a valve and resulting in a pressure drop of 1 psi. See also Flow Coefficient Kv.",
     "t103": "CWP (Cold Working Pressure)",
     "p103": "See MWP.",
     "t104": "CYCLE",
@@ -487,7 +503,7 @@
     "t172": "FLOW",
     "p172": "A fluid in motion in a conducting line.",
     "t173": "FLOW COEFFICIENT Kv",
-    "p173": "The volumetric flow rate of water, in cubic meters per hour, at a temperature between $5^{\\circ}C$ and $40^{\\circ}C$, passing through a valve and resulting in a pressure loss of 1 bar. When expressed in Imperial units it is known as $C_v$.",
+    "p173": "The volumetric flow rate of water, in cubic meters per hour, at a temperature between 5°C and 40°C, passing through a valve and resulting in a pressure loss of 1 bar. When expressed in Imperial units it is known as Cv.",
     "t174": "FLOW METER",
     "p174": "An instrument used to measure flow rate or total flow or both.",
     "t175": "FLOW RATE",
@@ -865,7 +881,7 @@
     "t359": "RMS (Roughness: Root Mean Square)",
     "p359": "It is the **root mean square average of the profile height deviations from the mean line** of the roughness profile. More sensitive to peaks and valleys than Ra because the amplitudes are squared.",
     "t360": "ROCKWELL HARDNESS TEST",
-    "p360": "A hardness measurement based on the net increase in depth of impression as a load is applied. Hardness numbers have no units. The type of indenter and the test load determine the **hardness scale (A, B, C, etc)**. The indenter may either be a steel ball of some specified diameter or a spherical diamond-tipped cone of 120 angle and $0.2 \text{ mm}$ tip radius. **ASTM D785** is the standard test for determining the Rockwell hardness of plastics and electrical insulating materials.",
+    "p360": "A hardness measurement based on the net increase in depth of impression as a load is applied. Hardness numbers have no units. The type of indenter and the test load determine the **hardness scale (A, B, C, etc)**. The indenter may be either a steel ball of a specified diameter or a spherical diamond-tipped cone with a 120-degree angle and a 0.2 mm tip radius. **ASTM D785** is the standard test for determining the Rockwell hardness of plastics and electrical insulating materials.",
     "t361": "ROUGHNESS (Rugosity)",
     "p361": "Small scale variations in the height of a physical surface. Roughness is measured by sampling and statistical techniques, whereby different parameters are used. **ISO 4287** and **ASME B46.1** provide terms, definitions, measurement methods and surface texture parameters.",
     "t362": "RPM (Revolutions Per Minute)",
@@ -1126,7 +1142,7 @@
     "t489": "YOKE",
     "p489": "That part of a gate valve which serves as a **spacer** between the **bonnet** and the **operator or actuator**.",
     "t490": "YOUNG'S MODULUS",
-    "p490": "A measure of **stiffness** (modulus of elasticity, elastic modulus, or tensile modulus). Defined as the ratio, for small strains, of the **rate of change of stress with strain** ($\frac{elta igma}{elta arepsilon}$). Determined from the slope of a stress-strain curve during tensile testing."
+    "p490": "A measure of **stiffness** (modulus of elasticity, elastic modulus, or tensile modulus). For small strains, it is defined as the **rate of change of stress with strain** (Δσ/Δε). It is determined from the slope of a stress-strain curve during tensile testing."
   },
   "ControlTermsPage": {
     "link1": "SECTION 1 : Valve Terms & Definitions",
@@ -1416,18 +1432,35 @@
     "p135": "A bond, usually issued by a bank, **guaranteeing specific monetary payment to a beneficiary** if the purchaser or maker **fails to perform or acts in violation of a contract**."
   },
   "ContactsPage": {
-    "title": "Contacts"
+    "title": "Contacts",
+    "owner": "© 2026 Individual Entrepreneur V. V. Bondarenko",
+    "taxId": "Tax ID 503212020713"
   },
   "EducationPage": {
-    "title": "Education"
+    "title": "Industrial valve training programs",
+    "description": "We offer professional training courses in the following areas:",
+    "course1": "High-pressure vessel inspection",
+    "course2": "Industrial valve fundamentals",
+    "course3": "Ball valves",
+    "course4": "Damaged equipment inspection",
+    "course5": "Pressure relief systems",
+    "course6": "ASTM standards",
+    "course7": "API standards"
   },
   "NewsPage": {
-    "title": "News"
+    "title": "News",
+    "read": "Read"
   },
   "ProgramsPage": {
     "title": "Programs",
     "pvb-u": "PVB-U ©",
     "pvb-control": "PVB Control ©",
-    "pvb-SpecFlow": "PVB SpecFlow ©"
+    "pvb-SpecFlow": "PVB SpecFlow ©",
+    "pvb-uText": "A suite of applications and training programs for employee development across industrial disciplines, including valves, pumps, heat exchangers, compressors, industrial safety, and procedures for hazardous facilities. The courses are useful for both new and experienced employees as market requirements and technical standards continue to evolve.",
+    "pvb-controlText": "A quality management application for manufacturers, customers, and inspection organizations. It guides users through valve acceptance, visual and dimensional inspections, testing, and preparation of a complete inspection report. The application improves transparency and reduces the risk of accepting non-conforming products.",
+    "pvb-SpecFlowText": "An application for valve engineers, sales managers, manufacturers, distributors, and commercial organizations. It helps users quickly prepare technical specifications, drawings, and product documentation from customer data sheets."
+  },
+  "PolicyPage": {
+    "title": "Privacy policy"
   }
 }

@@ -65,7 +65,7 @@ export const Banner: React.FC<BannerProps> = ({ images, locale }) => {
           ></video>
 
           <div className="absolute top-0 left-0 w-[50%] h-full lg:px-24 py-8 pl-4 flex flex-col items-start md:justify-between justify-around">
-            <h1 className="text-white lg:text-[90px] md:text-[45px] text-[36px] font-bold">
+            <h1 className="text-white text-[34px] leading-none font-bold md:text-[44px] lg:text-[72px]">
               {t("title")}
             </h1>
             <p className="text-white lg:text-[40px] md:text-[21px] uppercase">

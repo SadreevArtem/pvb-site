@@ -11,7 +11,7 @@ export const AboutBlock: React.FC<Props> = ({locale}) => {
     return (
       <section className=" xxl:px-24 lg:mt-[60px] pb-8">
         <div className="container ">
-          <h2 className="text-title-red text-[54px] font-bold mt-[20px] mb-[30px]">
+          <h2 className="home-section-title text-title-red mt-5 mb-7">
             {t("title")}
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -28,7 +28,7 @@ export const AboutBlock: React.FC<Props> = ({locale}) => {
             <div className="max-md:hidden ">
               <Image
                 src="/armatura.jpeg"
-                alt="запортная арматура"
+                alt={t("imageAlt")}
                 className="object-cover max-h-[400px]"
                 width={800}
                 height={600}

@@ -25,7 +25,7 @@ const Consultation = ({
         />
       </div>
       <div className="container mt-6">
-        <h1 className="md:text-[72px] md:ml-[260px] text-[36px] text-primary font-bold">
+        <h1 className="page-title page-title-offset">
           {t("title")}
         </h1>
       </div>

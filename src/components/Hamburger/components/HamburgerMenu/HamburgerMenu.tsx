@@ -2,7 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import { clsx } from "clsx";
-import { useRouter } from "next/router";
 import { HeaderMenuItem } from "../../static";
 import { usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
@@ -30,7 +29,7 @@ export const HamburgerMenu: React.FC<Props> = ({ menu, onClose, className = "" }
                 "bg-bgOpacity": paths[1] === ""
               })}
             >
-              <Link href='/' className='block w-full  text-primary' onClick={onClose}>
+              <Link href={`/${localActive}`} className='block w-full text-primary' onClick={onClose}>
                 {t('main')}
               </Link>
             </li>

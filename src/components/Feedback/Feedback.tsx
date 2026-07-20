@@ -28,6 +28,7 @@ export const Feedback: React.FC<Props> = ({ className = "" }) => {
       email: { value: string };
       message: { value: string };
       consent: { checked: boolean };
+      website: { value: string };
     };
 
     const variables = {
@@ -35,6 +36,7 @@ export const Feedback: React.FC<Props> = ({ className = "" }) => {
       email: target.email.value,
       message: target.message.value,
       consent: target.consent.checked,
+      website: target.website.value,
     };
 
     try {
@@ -68,11 +70,23 @@ export const Feedback: React.FC<Props> = ({ className = "" }) => {
               <div>{t("description")}</div>
             </div>
             <form className="bg-white p-6" onSubmit={onSubmit}>
+              <div className="absolute -left-[10000px] h-px w-px overflow-hidden" aria-hidden="true">
+                <label htmlFor="feedback-website">Website</label>
+                <input
+                  id="feedback-website"
+                  type="text"
+                  name="website"
+                  tabIndex={-1}
+                  autoComplete="off"
+                />
+              </div>
               <AppTextField
                 tag="input"
                 label={t("name")}
                 placeholder={t("typeName") ?? ""}
                 required
+                minLength={2}
+                maxLength={100}
                 name="name"
                 className="mb-6"
               />
@@ -82,6 +96,7 @@ export const Feedback: React.FC<Props> = ({ className = "" }) => {
                 label={t("email")}
                 placeholder={t("typeEmail") ?? ""}
                 required
+                maxLength={254}
                 name="email"
                 className="mb-6"
               />
@@ -90,6 +105,8 @@ export const Feedback: React.FC<Props> = ({ className = "" }) => {
                 label={t("message")}
                 placeholder={t("typeMessage") ?? ""}
                 required
+                minLength={10}
+                maxLength={5000}
                 rows={5}
                 name="message"
                 className="mb-2"

@@ -26,13 +26,13 @@ import React from 'react'
         />
       </div>
       <div className="container mt-6">
-        <h1 className="md:text-[72px] md:ml-[260px] text-[36px] text-primary font-bold">
+        <h1 className="page-title page-title-offset">
           {t("title")}
         </h1>
       </div>
       <div className="container mb-8 text-[18px] text-grayText">
       <div className='flex flex-col gap-[12px] md:ml-[260px]'>
-          <Link href="/" className="relative block shrink-0">
+          <Link href={`/${locale}`} className="relative block shrink-0">
             <Image
               src="/logo-max.png"
               alt="logo"
@@ -41,9 +41,9 @@ import React from 'react'
               className="relative max-md:-left-4"
             />
           </Link>
-          <p className='block'>© 2024 ИП Бондаренко В. В.</p>
+          <p className='block'>{t("owner")}</p>
           <p className='block'>Procurement Victor Bondarenko</p>
-          <p className='block'>ИНН 503212020713</p>
+          <p className='block'>{t("taxId")}</p>
           <p className='block'>E-mail: <Link className='text-link' href={"mailto:info@ppvb.pro"}>info@ppvb.pro</Link></p>
         </div>
       </div>

@@ -7,6 +7,7 @@ import React from "react";
 import clsx from "clsx";
 import Link from "next/link";
 import { NEWS } from "@/components/NewsBlock/static";
+import { notFound } from "next/navigation";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -16,7 +17,11 @@ const NewsDetail = ({
 }: {
   params: { id: string; locale: string };
 }) => {
-  const item = NEWS[+id];
+  const item = NEWS.find((newsItem) => newsItem.id === id);
+
+  if (!item) {
+    notFound();
+  }
   return (
     <div className="min-h-[50vh] md:mt-[100px] mt-[86px] bg-white">
       <div className="h-[140px] w-full relative">
@@ -29,7 +34,7 @@ const NewsDetail = ({
         />
       </div>
       <div className="container mt-6">
-        <h1 className="md:text-[56px] text-center text-[36px] text-primary font-bold">
+        <h1 className="page-title text-center mx-auto max-w-[1000px]">
           {locale === "ru" ? item.name : item.nameEN}
         </h1>
       </div>

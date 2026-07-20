@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { clsx } from "clsx";
+import Link from "next/link";
 
 type News = {
   id: string;
@@ -18,6 +19,7 @@ type Props = {
   locale: string;
   imageSizes?: string;
   className?: string;
+  readLabel: string;
 };
 
 export const NewsCard: React.FC<Props> = ({
@@ -25,6 +27,7 @@ export const NewsCard: React.FC<Props> = ({
   locale,
   imageSizes = "100vw",
   className = "",
+  readLabel,
 }) => {
   return (
     <div
@@ -47,24 +50,24 @@ export const NewsCard: React.FC<Props> = ({
       )}
       <div className="px-4 py-6 text-black flex-grow flex flex-col">
         <div className="text-sm text-gray-70 mb-2">{item.date}</div>
-        <a
+        <Link
           href={`/${locale}/news/${item.id}`}
           className="card-title font-sans-inter hover:text-primary active:text-primary-70 mb-3 line-clamp-4"
         >
           {locale === "ru" ? item.name : item.nameEN}
-        </a>
+        </Link>
         <div className="text-sm line-clamp-5 mb-6">
           {locale === "ru" ? item.description : item.descriptionEN}
         </div>
         <div className="flex justify-between items-center mt-auto">
           <div />
 
-          <a
+          <Link
             href={`/${locale}/news/${item.id}`}
             className="flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary-85 active:text-primary-70"
           >
-            <span>{"Читать"}</span>
-          </a>
+            <span>{readLabel}</span>
+          </Link>
         </div>
       </div>
     </div>

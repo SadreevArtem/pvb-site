@@ -6,10 +6,11 @@ import { setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import React from "react";
 
-export const metadata: Metadata = {
-  title: "О компании",
-  description: "site pvb",
-};
+export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
+  return locale === "ru"
+    ? { title: "О компании PVB", description: "Опыт и компетенции команды PVB в сфере промышленной арматуры." }
+    : { title: "About PVB", description: "PVB team's experience and expertise in the industrial valve sector." };
+}
 
 const About = ({ params: { locale } }: { params: { locale: string } }) => {
   setRequestLocale(locale);
@@ -27,7 +28,7 @@ const About = ({ params: { locale } }: { params: { locale: string } }) => {
         />
       </div>
       <div className="container mt-6">
-        <h1 className="md:text-[72px] md:ml-[260px] text-[36px] text-primary font-bold">
+        <h1 className="page-title page-title-offset">
           {t("title")}
         </h1>
       </div>

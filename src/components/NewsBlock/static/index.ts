@@ -65,6 +65,8 @@ export const NEWS = [
       "The EU aims to significantly increase the production of green hydrogen. However, experts see the lack of transport infrastructure as a major obstacle.",
     imageUrl: "/news3.png",
     text: "ЕС стремится значительно увеличить производство зеленого водорода. Однако эксперты видят в качестве серьезного препятствия отсутствие транспортной инфраструктуры. В данной статье анализируется важность трубопроводных сетей для развития европейского рынка водорода и обсуждаются возможные решения. Европейский Союз поставил амбициозные цели в области зеленого водорода: к 2030 году ежегодно производить и импортировать 10 миллионов тонн. В 2022 году производство возобновляемого водорода в ЕС составило 20 000 тонн, что составляет 0,2% от запланированного к 2030 году объема. В настоящее время менее 1% мирового производства водорода соответствует самым высоким экологическим стандартам. ",
+    textEN:
+      "The EU aims to significantly increase green hydrogen production, but experts regard the lack of transport infrastructure as a major obstacle. This article examines the importance of pipeline networks for the development of the European hydrogen market and discusses possible solutions. The European Union has set ambitious green hydrogen targets: by 2030, it plans to produce and import 10 million tonnes annually. In 2022, renewable hydrogen production in the EU amounted to 20,000 tonnes, only 0.2% of the planned 2030 volume. At present, less than 1% of global hydrogen production meets the highest environmental standards.",
     source:
       "https://www.valveworldexpo.com/en/Media_News/News/Business_News/Hydrogen_in_Europe_Network_Expansion_as_a_Key_Factor",
     date: "18.07.2024",

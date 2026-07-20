@@ -13,10 +13,22 @@ const montserrat = Montserrat({
   weight: ["400", "700"],
 });
 
-export const metadata: Metadata = {
-  title: "PVB - Обучение специалистов по запорно-регулирующей арматуре",
-  description:
-    "Запорная арматура: Обучение и подготовка специалистов по промышленной арматуре",
+export function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Metadata {
+  const isRussian = locale === "ru";
+  const title = isRussian
+    ? "PVB — обучение и консультации по промышленной арматуре"
+    : "PVB — industrial valve training and consulting";
+  const description = isRussian
+    ? "Профессиональные консультации, обучение и программные решения для специалистов по промышленной арматуре."
+    : "Professional consulting, training, and software solutions for industrial valve specialists.";
+
+  return {
+  title,
+  description,
   metadataBase: new URL("https://ppvb.pro"),
 
   icons: {
@@ -31,17 +43,16 @@ export const metadata: Metadata = {
   // Манифест и мобильные настройки
   manifest: "/site.webmanifest",
   appleWebApp: {
-    title: "MyWebSite",
+    title: "PVB",
     statusBarStyle: "default",
   },
 
   // OpenGraph (соцсети)
   openGraph: {
     type: "website",
-    locale: "ru_RU",
-    title: "PVB - Обучение специалистов по запорно-регулирующей арматуре",
-    description:
-      "Запорная арматура: Обучение и подготовка специалистов по промышленной арматуре",
+    locale: isRussian ? "ru_RU" : "en_US",
+    title,
+    description,
     // images: [{ url: '/og-image.jpg' }], // добавьте, если есть картинка
   },
 
@@ -50,7 +61,8 @@ export const metadata: Metadata = {
     "msapplication-TileColor": "#da532c",
     "theme-color": "#ffffff",
   },
-};
+  };
+}
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

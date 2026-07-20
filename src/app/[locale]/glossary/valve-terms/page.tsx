@@ -34,11 +34,17 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export const metadata: Metadata = {
-  title: "Клапаны: термины и определения | Курсы по запорной арматуре",
-  description:
-    "Раздел 1: Термины и определения клапанов. Изучайте ключевые понятия и названия элементов запорной арматуры для профессионалов отрасли.",
-};
+export function generateMetadata({ params: { locale } }: { params: { locale: string } }): Metadata {
+  return locale === "ru"
+    ? {
+        title: "Клапаны: термины и определения | PVB",
+        description: "Ключевые термины и определения элементов промышленной арматуры.",
+      }
+    : {
+        title: "Valve terms and definitions | PVB",
+        description: "Key industrial valve terms, component names, and professional definitions.",
+      };
+}
 
 const Consultation = ({
   params: { locale },
@@ -60,13 +66,13 @@ const Consultation = ({
         />
       </div>
       <div className="container mt-6">
-        <h1 className="md:text-[48px] md:ml-[260px] text-[36px] text-primary font-bold">
+        <h1 className="page-title page-title-offset">
           {t("title")}
         </h1>
       </div>
       <div className="container mb-8 text-[18px] text-grayText">
         <GlossaryLinks />
-        <p id="A" className="title md: text-[48px] md:ml-[160px]">
+        <p id="A" className="glossary-letter-title">
           {"A"}
         </p>
         <div className="mt-8">
@@ -75,7 +81,7 @@ const Consultation = ({
             items={accordeonItemsA}
           />
         </div>
-        <p id="B" className="title md: text-[48px] md:ml-[160px]">
+        <p id="B" className="glossary-letter-title">
           {"B"}
         </p>
         <div className="mt-8">
@@ -84,7 +90,7 @@ const Consultation = ({
             items={accordeonItemsB}
           />
         </div>
-        <p id="C" className="title md: text-[48px] md:ml-[160px]">
+        <p id="C" className="glossary-letter-title">
           {"C"}
         </p>
         <div className="mt-8">
@@ -93,7 +99,7 @@ const Consultation = ({
             items={accordeonItemsC}
           />
         </div>
-        <p id="D" className="title md: text-[48px] md:ml-[160px]">
+        <p id="D" className="glossary-letter-title">
           {"D"}
         </p>
         <div className="mt-8">
@@ -102,7 +108,7 @@ const Consultation = ({
             items={accordeonItemsD}
           />
         </div>
-        <p id="E" className="title md: text-[48px] md:ml-[160px]">
+        <p id="E" className="glossary-letter-title">
           {"E"}
         </p>
         <div className="mt-8">
@@ -111,7 +117,7 @@ const Consultation = ({
             items={accordeonItemsE}
           />
         </div>
-        <p id="F" className="title md: text-[48px] md:ml-[160px]">
+        <p id="F" className="glossary-letter-title">
           {"F"}
         </p>
         <div className="mt-8">
@@ -120,7 +126,7 @@ const Consultation = ({
             items={accordeonItemsF}
           />
         </div>
-        <p id="G" className="title md: text-[48px] md:ml-[160px]">
+        <p id="G" className="glossary-letter-title">
           {"G"}
         </p>
         <div className="mt-8">
@@ -129,7 +135,7 @@ const Consultation = ({
             items={accordeonItemsG}
           />
         </div>
-        <p id="H" className="title md: text-[48px] md:ml-[160px]">
+        <p id="H" className="glossary-letter-title">
           {"H"}
         </p>
         <div className="mt-8">
@@ -138,7 +144,7 @@ const Consultation = ({
             items={accordeonItemsH}
           />
         </div>
-        <p id="I" className="title md: text-[48px] md:ml-[160px]">
+        <p id="I" className="glossary-letter-title">
           {"I"}
         </p>
         <div className="mt-8">
@@ -147,7 +153,7 @@ const Consultation = ({
             items={accordeonItemsI}
           />
         </div>
-        <p id="K" className="title md: text-[48px] md:ml-[160px]">
+        <p id="K" className="glossary-letter-title">
           {"K"}
         </p>
         <div className="mt-8">
@@ -156,7 +162,7 @@ const Consultation = ({
             items={accordeonItemsK}
           />
         </div>
-        <p id="L" className="title md: text-[48px] md:ml-[160px]">
+        <p id="L" className="glossary-letter-title">
           {"L"}
         </p>
         <div className="mt-8">
@@ -165,7 +171,7 @@ const Consultation = ({
             items={accordeonItemsL}
           />
         </div>
-        <p id="M" className="title md: text-[48px] md:ml-[160px]">
+        <p id="M" className="glossary-letter-title">
           {"M"}
         </p>
         <div className="mt-8">
@@ -174,7 +180,7 @@ const Consultation = ({
             items={accordeonItemsM}
           />
         </div>
-        <p id="N" className="title md: text-[48px] md:ml-[160px]">
+        <p id="N" className="glossary-letter-title">
           {"N"}
         </p>
         <div className="mt-8">
@@ -183,7 +189,7 @@ const Consultation = ({
             items={accordeonItemsN}
           />
         </div>
-        <p id="O" className="title md: text-[48px] md:ml-[160px]">
+        <p id="O" className="glossary-letter-title">
           {"O"}
         </p>
         <div className="mt-8">
@@ -192,7 +198,7 @@ const Consultation = ({
             items={accordeonItemsO}
           />
         </div>
-        <p id="P" className="title md: text-[48px] md:ml-[160px]">
+        <p id="P" className="glossary-letter-title">
           {"P"}
         </p>
         <div className="mt-8">
@@ -201,7 +207,7 @@ const Consultation = ({
             items={accordeonItemsP}
           />
         </div>
-        <p id="Q" className="title md: text-[48px] md:ml-[160px]">
+        <p id="Q" className="glossary-letter-title">
           {"Q"}
         </p>
         <div className="mt-8">
@@ -210,7 +216,7 @@ const Consultation = ({
             items={accordeonItemsQ}
           />
         </div>
-        <p id="R" className="title md: text-[48px] md:ml-[160px]">
+        <p id="R" className="glossary-letter-title">
           {"R"}
         </p>
         <div className="mt-8">
@@ -219,7 +225,7 @@ const Consultation = ({
             items={accordeonItemsQ}
           />
         </div>
-        <p id="S" className="title md: text-[48px] md:ml-[160px]">
+        <p id="S" className="glossary-letter-title">
           {"S"}
         </p>
         <div className="mt-8">
@@ -228,7 +234,7 @@ const Consultation = ({
             items={accordeonItemsS}
           />
         </div>
-        <p id="T" className="title md: text-[48px] md:ml-[160px]">
+        <p id="T" className="glossary-letter-title">
           {"T"}
         </p>
         <div className="mt-8">
@@ -237,7 +243,7 @@ const Consultation = ({
             items={accordeonItemsT}
           />
         </div>
-        <p id="U" className="title md: text-[48px] md:ml-[160px]">
+        <p id="U" className="glossary-letter-title">
           {"U"}
         </p>
         <div className="mt-8">
@@ -246,7 +252,7 @@ const Consultation = ({
             items={accordeonItemsU}
           />
         </div>
-        <p id="V" className="title md: text-[48px] md:ml-[160px]">
+        <p id="V" className="glossary-letter-title">
           {"V"}
         </p>
         <div className="mt-8">
@@ -255,7 +261,7 @@ const Consultation = ({
             items={accordeonItemsV}
           />
         </div>
-        <p id="W" className="title md: text-[48px] md:ml-[160px]">
+        <p id="W" className="glossary-letter-title">
           {"W"}
         </p>
         <div className="mt-8">
@@ -264,7 +270,7 @@ const Consultation = ({
             items={accordeonItemsW}
           />
         </div>
-        <p id="X" className="title md: text-[48px] md:ml-[160px]">
+        <p id="X" className="glossary-letter-title">
           {"X"}
         </p>
         <div className="mt-8">
@@ -273,7 +279,7 @@ const Consultation = ({
             items={accordeonItemsX}
           />
         </div>
-        <p id="Y" className="title md: text-[48px] md:ml-[160px]">
+        <p id="Y" className="glossary-letter-title">
           {"Y"}
         </p>
         <div className="mt-8">

@@ -11,7 +11,7 @@ export const NewsBlock: React.FC<Props> = ({locale}) => {
     return (
       <section className=" xxl:px-24 lg:mt-[60px] bg-primary pb-[64px]">
         <div className="container pt-[64px]">
-          <h2 className="text-white text-[54px] font-bold md:mt-[20px] md:mb-[30px]">
+          <h2 className="home-section-title text-white md:mt-5 mb-7">
             {t("titleMain")}
           </h2>
           <div className="grid md:grid-cols-3 gap-8">

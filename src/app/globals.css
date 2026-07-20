@@ -45,6 +45,18 @@ body {
   .title {
     @apply text-primary md:text-[20px] font-bold my-2
   }
+  .page-title {
+    @apply text-[30px] leading-tight text-primary font-bold md:text-[38px] lg:text-[46px];
+  }
+  .page-title-offset {
+    @apply md:ml-[160px];
+  }
+  .home-section-title {
+    @apply text-[32px] leading-tight font-bold md:text-[40px] lg:text-[46px];
+  }
+  .glossary-letter-title {
+    @apply text-[28px] leading-none text-primary font-bold md:ml-[160px] md:text-[34px];
+  }
   .bordered-card {
     @apply border border-primary rounded;
   }

@@ -11,7 +11,7 @@ export const EducationBlock: React.FC<Props> = ({locale}) => {
     return (
       <section className="xxl:px-24 pb-[64px]">
         <div className="container pt-[64px]">
-          <h2 className="text-title-red text-[54px] font-bold md:mt-[20px] md:mb-[30px]">
+          <h2 className="home-section-title text-title-red md:mt-5 mb-7">
             {t("titleMain")}
           </h2>
           <div className="grid md:grid-cols-3 gap-8">

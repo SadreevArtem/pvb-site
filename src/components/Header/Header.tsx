@@ -5,7 +5,7 @@ import { useState, useTransition } from "react";
 import { HEADER_MENU } from "../Hamburger/static";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 
 
@@ -14,12 +14,17 @@ export default function Header ()  {
   const t = useTranslations('Header');
   const localActive = useLocale();
   const router = useRouter();
+  const pathname = usePathname();
   const [_, startTransition] = useTransition();
 
   const onChangeHandler = ()=> {
     const nextLocale = localActive === 'ru' ? 'en' : 'ru';
+    const nextPathname = pathname.replace(
+      /^\/(ru|en)(?=\/|$)/,
+      `/${nextLocale}`,
+    );
     startTransition(() => {
-      router.replace(`/${nextLocale}`);
+      router.replace(nextPathname || `/${nextLocale}`);
     });
   }
     const [hamburgerActive, setHamburgerActive] = useState(false);
@@ -38,7 +43,7 @@ export default function Header ()  {
             "container flex items-center justify-between min-h-6 w-full"
           }
         >
-          <Link href="/" className="relative block shrink-0 py-2">
+          <Link href={`/${localActive}`} className="relative block shrink-0 py-2">
             <Image
               src="/logo-max.png"
               alt="logo"
@@ -50,7 +55,11 @@ export default function Header ()  {
           <nav className="flex items-center gap-4">
             <ul className="flex md:gap-4 items-center">
               <li>
-                <button className="header-link " onClick={onChangeHandler}>
+                <button
+                  className="header-link"
+                  onClick={onChangeHandler}
+                  aria-label={t("switchLanguage")}
+                >
                   {localActive === "ru" ? "EN" : "RU"}
                 </button>
               </li>
@@ -68,6 +77,8 @@ export default function Header ()  {
                   active={hamburgerActive}
                   onOpen={onOpen}
                   onClose={onClose}
+                  openLabel={t("openMenu")}
+                  closeLabel={t("closeMenu")}
                 />
               </li>
             </ul>

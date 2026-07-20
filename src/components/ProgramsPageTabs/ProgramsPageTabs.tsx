@@ -2,26 +2,23 @@
 import React, { useState } from "react";
 import clsx from "clsx";
 import { Tabs } from "../AboutPageTabs/components/Tabs/Tabs";
+import { useTranslations } from "next-intl";
 
-const ProgramsContent: {
-  [key: string]: string;
-} = {
-  "pvb-u":
-    "Набор приложений и программ для обучения сотрудников и саморазвития по различным промышленным сферам, буль то запорная арматура, насосы, теплообменники, компрессоры или система безопасности на производствах и правила работы на особо опасных производствах. Курсы могут быть полезны не только начинающим сотрудникам, но и людям с опытом, т. к. рынок постоянно меняется и приобретает новые технические требования и стандарты.",
-  "pvb-control":
-    "Программа, разработанная для менеджеров по качеству для производств, заказчиков или инспекций, позволяющая пошагово принимать запорную арматуру, проводить ВИК, испытания и подготовить полноценный отчет об испытаниях. С нашей программой инспекторы больше не смогут покинуть место испытаний или договориться с производителем и ничего не проверять, а ваш персонал не сможет сделать видимость работы и сдать некачественную продукцию заказчику.",
-  "pvb-SpecFlow":
-    "Программа, создана для технических инженеров по запорной арматуре и менеджеров по продажам ЗРА, производителям запорной арматуры, дилерам и коммерческим компаниям. Программа позволяет быстро и качественно подготовить технические спецификации на запорную арматуру для предоставления их на согласование заказчику, а также изготовить чертежи и паспортную документацию благодаря искусственному интеллекту по опросным листам заказчика в пару кликов.",
-};
+const PROGRAM_TABS = ["pvb-u", "pvb-control", "pvb-SpecFlow"] as const;
 
 export const ProgramsPageTabs = () => {
+  const t = useTranslations("ProgramsPage");
   const [tab, setTab] = useState<string>("pvb-u");
+  const contentKey = `${tab}Text` as
+    | "pvb-uText"
+    | "pvb-controlText"
+    | "pvb-SpecFlowText";
   return (
     <div className="container flex gap-8 mt-8 flex-col md:flex-row text-[#333738] pb-12">
       <Tabs
         currentTab={tab}
         setTab={setTab}
-        categories={Object.keys(ProgramsContent)}
+        categories={[...PROGRAM_TABS]}
         pageName="ProgramsPage"
       />
       <div>
@@ -30,7 +27,7 @@ export const ProgramsPageTabs = () => {
             "whitespace-pre indent-0": tab === "Contacts",
           })}
         >
-          {ProgramsContent[tab]}
+          {t(contentKey)}
         </p>
       </div>
     </div>
