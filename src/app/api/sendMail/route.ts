@@ -4,7 +4,14 @@ import nodemailer from 'nodemailer';
 
 
 export async function POST(req: Request) {
-  const { name, email, message } = await req.json();
+  const { name, email, message, consent } = await req.json();
+
+  if (!consent) {
+    return NextResponse.json(
+      { message: 'Personal data processing consent is required' },
+      { status: 400 },
+    );
+  }
 
   // Настройка SMTP-транспортера
   const transporter = nodemailer.createTransport({

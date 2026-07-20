@@ -53,7 +53,18 @@
     "typeEmail": "Enter your E-mail",
     "typeMessage": "Enter your question",
     "required": "required fields",
-    "button": "submit"
+    "consentPrefix": "I consent to the processing of my personal data and accept the",
+    "consentLink": "privacy policy",
+    "button": "submit",
+    "sending": "sending...",
+    "success": "Your question has been sent successfully!",
+    "error": "A server error occurred. Please try again."
+  },
+  "CookieNotice": {
+    "ariaLabel": "Cookie usage notice",
+    "text": "We use cookies to ensure the website works correctly. By continuing to use the website, you agree to our",
+    "policyLink": "privacy policy.",
+    "button": "Got it"
   },
   "Footer": {
     "link1": "Consultation",

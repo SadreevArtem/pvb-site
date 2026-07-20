@@ -6,6 +6,7 @@ import Header from "@/components/Header/Header";
 import { locales } from "@/i18n";
 import Footer from "@/components/Footer/Footer";
 import { Metadata } from "next";
+import { CookieNotice } from "@/components/CookieNotice/CookieNotice";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -74,6 +75,7 @@ export default async function LocaleLayout({
           <Header />
           {children}
           <Footer />
+          <CookieNotice />
         </NextIntlClientProvider>
       </body>
     </html>
